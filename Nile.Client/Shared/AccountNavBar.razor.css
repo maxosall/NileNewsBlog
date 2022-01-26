@@ -1,0 +1,43 @@
+@media (min-width: 1023px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .buttons {
+        justify-content: flex-end;
+    }
+    .navbar-menu {
+        position: absolute;
+        width: 100%;
+        top: 3.2rem;
+        border-top: 1px solid var(--bs-gray-300);
+        border-radius: 1px 1px 5px 5px !important;
+        flex-direction: column-reverse !important;
+    }
+    .collapseNavBar {
+        display: flex !important;
+        -webkit-transition: height 0.3s ease !important;
+        transition: height 0.3s ease !important;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .collapseDropDown {
+        display: block !important;
+    }
+    .navbar-container .navbar-dropdown {
+        display: none;
+    }
+}
+
+/* .navbar-menu {
+    position: static;
+
+    display: flex;
+    flex-direction: row;
+} */
+@media screen and (min-width: 1024px) {
+    .container > .navbar .navbar-menu,
+    .navbar > .container .navbar-menu {
+        margin-right: -0.75rem;
+        display: contents !important;
+    }
+}

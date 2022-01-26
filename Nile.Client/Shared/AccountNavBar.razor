@@ -1,0 +1,160 @@
+<nav class="navbar container px-sm-0" style="background: transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <NavLink class="navbar-item has-text-danger" href="/"> Nile </NavLink>
+        <!-- start search -->
+        <div class="field has-addons is-align-items-center mb-0">
+            <div class="control">
+                <input class="input search-input-navbar is-small has-text-dark" type="text" placeholder="search..">
+            </div>
+            <div class="control">
+                <NavLink class="button is-small search-btn-navbar is-primary"><i class="fas fa-search"></i></NavLink>
+            </div>
+        </div>
+        <!-- end search -->
+        <span class="is-flex is-justify-content-center is-align-items-center pr-4">
+            <figure class="image is-24x24 is-hidden-desktop" >
+                <img class="is-rounded" src="/img/a_4.jfif" />
+            </figure>
+            <NavLink role="button" class="navbar-burger" onclick="@ToggleNavMenu" >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </NavLink>
+        </span>
+    </div>
+        <div id="navbarBasicExample" class="navbar-menu @NavMenuCssClass">
+            <div class="navbar-start">
+                <NavLink href="/" class="navbar-item " >Home</NavLink>
+                <div class="navbar-item has-dropdown is-hoverable" onclick="@ToggleDropDown">
+                    <NavLink class="navbar-link" >More</NavLink>
+                    <div class="navbar-dropdown @DropDownCssClass">
+                        <NavLink class="navbar-item ">About</NavLink>
+                        <NavLink class="navbar-item ">Jobs</NavLink>
+                        <NavLink class="navbar-item ">Contact</NavLink>
+                        <hr class="navbar-divider">
+                        <NavLink class="navbar-item">Report an issue</NavLink>
+                    </div>
+                </div>
+                <!-- mega dropdown -->
+                <div class="navbar-item has-dropdown is-hoverable is-mega">
+                    <div class="navbar-link flex ">Blog 
+                        @* <span class="tag is-info ml-2">Hover here</span> *@
+                    </div>
+                    <div id="blogDropdown" class="navbar-dropdown " data-style="width: 18rem;">
+                    <div class="container is-fluid">
+                        <div class="columns">
+                            <div class="column">
+                                <h1 class="px-3 is-size-5 py-3 is-flex is-unselectable has-text-weight-normal is-mega-menu-title">Sub Menu Title</h1>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column">
+                                <h1 class="px-3 is-size-5 py-3 is-flex is-unselectable has-text-weight-normal is-mega-menu-title">Sub Menu Title</h1>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                                <a class="navbar-item " href="/documentation/overview/start/">Overview</a>
+                                <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">Modifiers</a>
+                                <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">Columns</a>
+                            </div>
+                            <div class="column">
+                                <h1 class="px-3 is-size-5 py-3 is-flex is-unselectable has-text-weight-normal is-mega-menu-title">Sub Menu Title</h1>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                                    <div class="navbar-content">
+                                        <p><small class="has-text-info">03 Aug 2017</small></p>
+                                        <p>New feature: list of tags</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column">
+                                <h1 class="px-3 is-size-5 py-3 is-flex is-unselectable has-text-weight-normal is-mega-menu-title">Sub Menu Title</h1>
+                                <a class="navbar-item " href="/documentation/overview/start/">Overview</a>
+                                <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">Modifiers</a>
+                                <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">Columns</a>
+                                <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">Layout</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="navbar-divider">
+                    <div class="navbar-item">
+                        <div class="navbar-content">
+                            <div class="level is-mobile">
+                                <div class="level-left">
+                                    <div class="level-item"><strong>Stay up to date!</strong></div>
+                                </div>
+                                <div class="level-right">
+                                    <div class="level-item">
+                                        <a class="button bd-is-rss is-small" href="http://bulma.io/atom.xml">
+                                            <span class="icon is-small"><i class="fa fa-rss"></i></span>
+                                            <span>Subscribe</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end mega dropdown -->
+            </div>        
+        </div>
+        <!-- Account Navbar -->
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <NavLink href="Account/Register" class="button is-small is-primary register-navbar ">Sign up</NavLink>
+                    <NavLink href="Account/Login" class="btn-login is-small button is-light has-text-danger has-text-weight-semibold">Log in</NavLink>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+@code {
+    // ========= Toggle DropDown ========
+    private bool collapseNavMenu = false;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapseNavBar" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+    // ========= Toggle DropDown ========
+    private bool collapseDropDown = false;
+    private string? DropDownCssClass => collapseDropDown? "collapseDropDown" : null;
+
+    private void ToggleDropDown()
+    {
+        collapseDropDown = !collapseDropDown;
+    }
+}

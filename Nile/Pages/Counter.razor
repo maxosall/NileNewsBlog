@@ -1,0 +1,31 @@
+﻿@page "/counter"
+@page "/counter/{startingVal:int}"
+
+<PageTitle>Counter</PageTitle>
+
+<h1 class="title-4">Counter</h1>
+
+<p role="status mY-3">Current count: @currentCount</p>
+<div class="py-3">
+    <button class="button btn-primary py-3 is-link" @onclick="IncrementCount">Increase </button>
+    <button class="button btn-primary py-3 is-link" @onclick="DecrementCount">Decease me</button>
+</div>
+@code {
+    private int currentCount = 0;
+    [Parameter]
+    public int StartingVal{get; set;} = 5;
+    protected override void OnParametersSet()
+    {
+        currentCount = StartingVal;
+        base.OnParametersSet();
+    }
+    private void IncrementCount() 
+    {
+        currentCount++;
+    }
+    private void DecrementCount() 
+    {
+        if(currentCount > 0) currentCount--;
+       else currentCount = 0;
+    }
+}

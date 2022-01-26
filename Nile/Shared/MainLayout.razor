@@ -1,0 +1,57 @@
+﻿@inherits LayoutComponentBase
+
+<section class="section">
+    <div class="container">
+        <div class="container">
+            <AccountNavBar />
+        </div> 
+    </div>
+    @* ============= *@
+    <section class="hero is-small is-link">
+        <div class="hero-body has-text-centered">
+            <p class="title">Nile News </p>
+            <p class="subtitle"> Medium subtitle</p>
+            <form class="is-flex has-addons">                
+                <input type="text" class="is-medium is-shadowless is-radiusless input" placeholder="Search"/>
+                <button type="submit" class="is-medium is-shadowless is-radiusless button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+    @* ============ *@
+    <div class="container">    
+        <div class="container py-4 ">  
+            <span class="is-unselectable is-flex is-align-items-center is-hidden-tablet">
+                <button class=" px-2 button is-flex navbarToggler is-flex-direction-column 
+                justify-content-center is-align-items-flex-start" type="button">
+                    <div class="barIcon"></div>
+                    <div class="barIcon"></div>
+                    <div class="barIcon"></div>
+                </button>                       
+                <small>Side Bar</small>                              
+            </span>      
+            <div class="columns px-3-tablet" >
+                <div class="column is-3">                    
+                    <aside class="menu px-3 is-hidden-touch">
+                        <p class="menu-label">General</p>
+                        <ul class="menu-list">
+                            <li><a href="/counter" class="py-3">Counter</a></li>
+                            <li><a href="/fetchdata" class="py-3">Fetch Data</a></li>
+                            <li><a href="/Author/List" class="py-3">List Authors</a></li>
+                        </ul>
+                        <p class="menu-label">ACCOUNT</p>
+                        <ul class="menu-list">
+                            <li><a href="/Account/Register" class="py-3">Register</a></li>
+                            <li><a href="/Account/Login" class="py-3">Login</a></li>
+                        </ul>   
+                    </aside> 
+                </div>
+                <div class="column is-9">
+                    
+                    <section class="section">
+                    @Body
+                    </section>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>

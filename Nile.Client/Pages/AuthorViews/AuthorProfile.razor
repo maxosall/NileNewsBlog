@@ -1,0 +1,54 @@
+@page "/Author/Profile/{id}"
+@inherits AuthorProfileBase
+
+
+<PageTitle>Author Profile</PageTitle>
+
+<div class="columns Author-details">
+    @if(Author is null )
+    {
+        <p class="spinner"></p>
+    }
+    else
+    {
+        <div class="column is-4">
+            @* ======= *@
+            <div class="profile-card card is-shadowless is-radiusless">
+                <div class="card-image center has-background-warning py-0 is-radiusless">
+                    <figure class="image is-4by3 center">
+                        @if(@Author.PhotoPath is null)
+                        {
+                            <p class="has-text-centered">Image is Loading...</p>
+                        }
+                        else
+                        {
+                            <img src="@Author.PhotoPath" alt="Placeholder image">
+                        }
+                    </figure>
+                </div>
+                <div class="card-content p-0">
+                    <aside class="menu">
+                        <p class="menu-label is-unselectable">Author Details</p>
+                        <ul class="menu-list">
+                            <li><a class="is-size-6 is-clickable"><i class="is-size-6 mr-3"><PersonIcon  /></i> @Author.FirstName @Author.LastName</a></li>
+                            <li><a class="is-size-6 " href="#"><i class="is-size-6 mr-3"><EmailIcon /></i> @Author.Email</a></li>
+                            <li><a class="is-size-6 is-clickable"><strong>Gender: </strong>@Author.Gender</a></li>
+                            <li><a class="is-size-6 " >@(Author.Department == null ? "N/A" : Author.Department.DepartmentName ) </a></li>
+                        </ul>                        
+                    </aside>                               
+                </div>
+            </div>
+            @* =========== *@
+        </div>
+        <div class="colimn is-8">    
+            <div class="profile-card card is-shadowless is-radiusless">
+                <h3 class="title-5">About me</h3>
+                <div class="card-content py-3 p-0">
+                    <p class="content p-0 has-text-justified"> @Author.Bio </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+

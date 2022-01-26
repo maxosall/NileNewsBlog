@@ -1,0 +1,18 @@
+@page "/Department/Index"
+@inherits IndexBase
+
+<PageTitle>Department</PageTitle>
+<h1 class="title-5">All Departments</h1>
+@if (Departments == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <ul>
+        @foreach(var dep in Departments)
+        {
+            <a class="px-2 m-3 button is-primary is-light" href="">@dep.DepartmentName</a>
+        }
+    </ul>    
+}

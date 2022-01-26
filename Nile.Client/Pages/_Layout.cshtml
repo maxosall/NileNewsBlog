@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@namespace Nile.Client.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    @* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> *@
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="Nile.Client.styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+    <link rel="stylesheet" href="css/light_theme_navbar.css"/>
+    
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+</head>
+<body>
+    @RenderBody()
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+    <script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+    
+    <script> 
+        /*
+        Blazor.start().then(function () {
+            var nvbrToggler = document.querySelector(".navbarToggler ");
+            var mdl = document.querySelector(".column.is-3.is-hidden-touch");
+            var exit = document.querySelector("aside:after");
+            nvbrToggler.addEventListener("click",function(){
+                mdl.classList.add("md-modal");
+            });
+            exit.addEventListener("click",function(){
+                mdl.classList.remove("md-modal");
+            }); 
+        });       
+         */      
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+section.section[b-mwlk9koap0] {
+    padding: 0rem !important;
+}
+.container[b-mwlk9koap0] {
+    padding: 0px !important;
+}
+nav.navbar[b-mwlk9koap0] {
+    border-bottom: 1px solid #dee2e6;
+    padding: 0px;
+}
+.navbar-brand[b-mwlk9koap0] {
+    width: 100%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container > .navbar .navbar-brand[b-mwlk9koap0],
+    .navbar > .container .navbar-brand[b-mwlk9koap0] {
+        margin-left: -0.75rem;
+        width: auto;
+    }
+}

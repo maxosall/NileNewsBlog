@@ -1,0 +1,105 @@
+@page "/Author/Edit/{id}"
+@using Microsoft.Extensions.Logging
+@using Microsoft.AspNetCore.Components.Forms
+@using NileLib.Components
+@inherits EditAuthorBase
+
+<PageTitle>Edit Author</PageTitle>
+<h1 class="title-5">Edit Author</h1>
+<div class="edit-form my-5">
+@if(EditAuthorModel is not null)
+{    
+    <EditForm Model="@EditAuthorModel" OnValidSubmit="HandleEditAuthor">
+        <ObjectGraghDataAnnotationsValidator />
+        <div class="is-flex group-fields">
+            <div class="field mr-4">
+                <label asp-for="@EditAuthorModel.FirstName" class="label">First Name</label>
+                <div class="control">
+                    <InputText class="input" asp-for="@EditAuthorModel.FirstName" placeholder="Enter your First Name" @bind-Value="EditAuthorModel.FirstName" />
+                    <ValidationMessage For="@(()=> EditAuthorModel.FirstName)" />
+                </div>
+            </div>
+            <div class="field">
+                <label For="@(()=> EditAuthorModel.LastName)" class="label">Last Name</label>
+                <div class="control">
+                    <InputText class="input" placeholder="Enter your First Name" @bind-Value="EditAuthorModel.LastName" />
+                    <ValidationMessage For="@(()=> EditAuthorModel.LastName)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="field">
+            <label asp-for="@EditAuthorModel.Email" class="label">Email</label>
+            <div class="control">
+                <InputText class="input" type="Email" placeholder="Enter your E-mail " @bind-Value="EditAuthorModel.Email" />
+                <ValidationMessage For="@(()=> EditAuthorModel.Email)" />
+            </div>
+        </div>
+        <div class="field">
+            <label asp-for="@EditAuthorModel.Email" class="label">Confirm Email</label>
+            <div class="control">
+                <InputText class="input" type="Email" placeholder="Confirm Enter your E-mail " @bind-Value="EditAuthorModel.ConfirmEmail" />
+                <ValidationMessage For="@(()=> EditAuthorModel.ConfirmEmail)" />
+            </div>
+        </div>
+        <div class="is-flex group-fields">
+            <div class="field mr-4">
+                <label asp-class="label" class="label">Gender</label>
+                <div class="control select is-success">
+                    <InputSelect class="is-success" @bind-Value="EditAuthorModel.Gender">
+                        @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                        {
+                            <option value="@gender"> @gender</option>
+                        }
+                    </InputSelect>                     
+                </div> 
+            </div>
+            <div class="field">
+                <label class="label">Date Of Birth</label>
+                <div class="control">
+                    <InputDate class="input" @bind-Value="EditAuthorModel.DateOfBirth" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="field grop-fields">
+            <label asp-for="@EditAuthorModel.Bio" class="label">Bio</label>
+            <div class="control">
+                <InputTextArea rows="6" class="textarea" placeholder="Write some thing about yourself[Bio]" @bind-Value="EditAuthorModel.Bio" />
+                <ValidationMessage For="@(()=> EditAuthorModel.Bio)" />
+            </div>
+        </div>
+        
+        
+       <div class="is-flex">  
+            <div class="field">
+                <label asp-class="label" class="label">Department</label>
+                <div class="control control-group is-flex is-align-items-center">
+                    <div class="select">
+                        <CustomInputSelect class="input is-success" @bind-Value="EditAuthorModel.DepartmentId">
+                            @foreach (var dep in Departments)
+                            {
+                                <option value="@dep.DepartmentId"> @dep.DepartmentName</option>
+                            }
+                        </CustomInputSelect>
+                    </div>                    
+                    <button class="is-success is-small is-light button"><i class="fas fa-plus"></i></button>                    
+                </div> 
+            </div>
+        </div>
+        
+
+        <div class="field mt-4">
+            <div class="control" id="footer-edit-form">
+                <a href="" class="is-link">Back to index</a>
+                <button class="button is-primary" type="submit"> Save Changes</button>
+            </div>
+        </div>
+        
+    </EditForm>
+}
+else
+{
+    <p class="spinner"></p>
+}
+</div>

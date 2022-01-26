@@ -1,0 +1,79 @@
+﻿@page "/Author/List"
+@inherits AuthorListBase
+
+
+<h1 class="is-size-3">Author List</h1>
+<div class="d-flex">
+@if(Authors == null)
+{
+    <div class="spinner"></div>
+}
+else
+{ 
+     <div class="is-flex is-flex-wrap-wrap " >
+        @foreach(var author in Authors){
+            <div class="card m-3 is-flex is-flex-direction-column is-flex-grow-1 is-flex-shrink-1" 
+                style="width: 217px;">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="@author.PhotoPath" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="@author.PhotoPath" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-size-6 is-uppercase">@author.FirstName @author.LastName</p>
+                            <p class="subtitle is-6">@author.Email</p>
+                        </div>
+                    </div>
+
+                    <div class="content pt-0 mt-0">
+                        @author.Bio
+                        <br>
+                        <time class="is-size-7" datetime="2016-1-1">@author.DateOfBirth</time>
+                    </div>
+                </div>
+                
+                <footer class="card-footer">
+                    <a href="#" class="card-footer-item">View</a>
+                    <a href="#" class="card-footer-item">Edit</a>
+                    <a href="#" class="card-footer-item">Delete</a>
+                </footer>
+            </div>           
+        }    
+    </div>
+
+    <h3> Author table</h3>
+    <table class="table is-fullwidth is-hoverable is-bordered mt-4 ">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Picture</th>
+                <th>Gender</th>
+                <th>E-mail</th>
+                <th>DateOfBirth</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var author in Authors){
+                <tr>
+                    <td>@author.FirstName @author.LastName</td>
+                   <td>
+                        <figure class="image is-32x32">
+                            <img class="is-rounded" src="@author.PhotoPath">
+                        </figure>
+                    </td>
+                    <td>@author.Gender</td>
+                    <td>@author.Email </td>
+                    <td>@author.DateOfBirth</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+</div>

@@ -1,0 +1,44 @@
+:root {
+    --bg-light: #f8f9fa;
+    --bg-wihte: white;
+    --color-light: #f8f9fa;
+    --color-dark: #212529;
+    --color-danger: #d90000;
+    --color-secondary: #485fc7;
+}
+.navbar-container {
+    background: var(--bg-wihte) !important;
+    border-bottom: 1px solid rgb(228, 228, 228) !important;
+}
+.navbar-container .navbar-link,
+.navbar-container a.navbar-item {
+    color: var(--color-dark) !important;
+    /* border-bottom: 1px solid #dbdbdb !important; */
+}
+.navbar-container .navbar-link:hover,
+.navbar-container a.navbar-item:hover {
+    background-color: var(--bg-wihte) !important;
+    color: var(--color-secondary) !important;
+    /* border-bottom: 1px solid #d90000; */
+    border-radius: 0px !important;
+}
+.navbar-container input.input.is-small {
+    /* search input */
+    background-color: var(--bg-light) !important;
+    border: 1px solid var(--bg-wihte) !important;
+}
+
+.navbar-container a.btn-login.button.is-black.has-text-light {
+    /* navbar login btn */
+    color: var(--color-danger) !important;
+    background: var(--bg-wihte);
+    font-weight: 600;
+}
+
+.navbar-container .navbar-dropdown {
+    background-color: var(--bg-wihte) !important;
+}
+.navbar-container > navbar-dropdown:hover .navbar-dropdown.navbar-link {
+    background-color: var(--bg-light) !important;
+    color: var(--color-secondary) !important;
+}

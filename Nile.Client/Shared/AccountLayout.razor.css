@@ -1,0 +1,23 @@
+section.section {
+    padding: 0rem !important;
+}
+.container {
+    padding: 0px !important;
+}
+nav.navbar {
+    border-bottom: 1px solid #dee2e6;
+    padding: 0px;
+}
+.navbar-brand {
+    width: 100%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container > .navbar .navbar-brand,
+    .navbar > .container .navbar-brand {
+        margin-left: -0.75rem;
+        width: auto;
+    }
+}

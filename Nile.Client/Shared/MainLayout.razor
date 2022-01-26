@@ -1,0 +1,48 @@
+﻿@inherits LayoutComponentBase
+
+<section class="section">
+    <div class="navbar-container px-0 container is-widescreen">
+        <AccountNavBar /> 
+    </div>
+    @* <HeroSection /> *@
+    <div class="container px-0">    
+        <div class="container mx-0 px-0 py-4 ">  
+            <!-- sidebar Toggler  --> 
+            <SideBarToggler /> 
+            <!-- sidebar Toggler  -->      
+            <div class="columns" >                
+                <div class="column is-3 is-hidden-touch">  
+                <!-- sidebar menu -->                  
+                    <SideBarMenu />
+                <!-- end sidebar menu -->
+                </div>
+                <div class="column is-9 is-12-touch">                    
+                    <section class="section">
+                        @Body
+                    </section>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+@* @inherits LayoutComponentBase
+
+<PageTitle>Nile.Client</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div> *@

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "x+rEeEJE1wiyxZkIrHvtYbPqPBsQ2yzeyVHf1K7xYrs=",
+  "Source": "NileLib.Components",
+  "BasePath": "_content/NileLib.Components",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NileLib.Components\\wwwroot",
+      "Source": "NileLib.Components",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "BasePath": "_content/NileLib.Components",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css",
+      "SourceId": "NileLib.Components",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/NileLib.Components",
+      "RelativePath": "NileLib.Components.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css",
+      "SourceId": "NileLib.Components",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/NileLib.Components",
+      "RelativePath": "NileLib.Components.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\background.png",
+      "SourceId": "NileLib.Components",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "BasePath": "_content/NileLib.Components",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "NileLib.Components",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "BasePath": "_content/NileLib.Components",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

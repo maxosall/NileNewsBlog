@@ -1,0 +1,50 @@
+﻿@page "/"
+@page "/Authors/List"
+@inherits IndexBase
+<PageTitle>Index</PageTitle>
+
+
+<h1 class="title-5">All Authors</h1>
+@if (Authors == null)
+{
+    <div class="center">
+    <p class="spinner"></p>
+    </div>
+}
+else{
+    <div class="card-deck my-4 is-flex is-flex-wrap-wrap " >
+        @foreach(var author in Authors){
+            <div class="card is-flex is-flex-direction-column is-justify-content-space-between is-flex-grow-1 is-flex-shrink-1" 
+                style="width: 217px;">                
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="@author.PhotoPath" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-size-7 is-uppercase">@author.FirstName @author.LastName</p>
+                            
+                            <p class="subtitle is-7">@author.Email</p>
+                        </div>
+                    </div>
+
+                    <div class="content pt-0 mt-0">
+                       
+                        <p class="m-0">  @(author.Bio.Length < 100 ? author.Bio : author.Bio.Substring(0,60)+"..." ) </p>
+                        <br />
+                        <time class="is-size-7" datetime="2016-1-1">@author.DateOfBirth</time>
+                    </div>
+                </div>
+                
+                <footer class="card-footer p-0">
+                    <a href='@($"Author/Profile/{author.AuthorId}")' class="card-footer-item">View</a>
+                    <a href='@($"Author/Edit/{author.AuthorId}")' class="card-footer-item">Edit</a>
+                    <a href="#" class="card-footer-item">Delete</a>
+                </footer>
+            </div>           
+        }    
+    </div>
+}
+

@@ -1,0 +1,8 @@
+#footer-edit-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer-edit-form a {
+    text-decoration: underline;
+}

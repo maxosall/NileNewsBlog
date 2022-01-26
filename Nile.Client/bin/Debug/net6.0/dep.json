@@ -1,0 +1,122 @@
+[
+    {
+        "authorId": 1,
+        "firstName": "Ali",
+        "lastName": "Sall",
+        "email": "maxo@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7930755",
+        "gender": 0,
+        "departmentId": 4,
+        "department": {
+            "departmentId": 4,
+            "departmentName": "Science and Tech"
+        },
+        "bio": "i'm jornalist and a former Software Engeer",
+        "photoPath": "img/a_7.jfif"
+    },
+    {
+        "authorId": 2,
+        "firstName": "fatima ",
+        "lastName": "kane",
+        "email": "fatima@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7930907",
+        "gender": 1,
+        "departmentId": 2,
+        "department": {
+            "departmentId": 2,
+            "departmentName": "Bussness and Economy"
+        },
+        "bio": "i'm have Degree in busness and i am a writer",
+        "photoPath": "img/a_6jfif.jfif"
+    },
+    {
+        "authorId": 3,
+        "firstName": "habib ",
+        "lastName": "Sall",
+        "email": "habib@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7930985",
+        "gender": 0,
+        "departmentId": 3,
+        "department": {
+            "departmentId": 3,
+            "departmentName": "Politics"
+        },
+        "bio": "I'm a Writer who graduated from XbU with Polilic science Degree ",
+        "photoPath": "img/a_2.jfif"
+    },
+    {
+        "authorId": 4,
+        "firstName": "Nancy ",
+        "lastName": "fay",
+        "email": "maxo@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7931104",
+        "gender": 1,
+        "departmentId": 4,
+        "department": {
+            "departmentId": 4,
+            "departmentName": "Science and Tech"
+        },
+        "bio": "i am a journalist with CS background",
+        "photoPath": "img/a_1.jfif"
+    },
+    {
+        "authorId": 5,
+        "firstName": "nabou",
+        "lastName": "fall",
+        "email": "nabou@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7931187",
+        "gender": 1,
+        "departmentId": 1,
+        "department": {
+            "departmentId": 1,
+            "departmentName": "Sport"
+        },
+        "bio": "I am a Sport Analyist and a writer",
+        "photoPath": "img/a_9.jfif"
+    },
+    {
+        "authorId": 6,
+        "firstName": "Noora",
+        "lastName": "Disllo",
+        "email": "nabou@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7931281",
+        "gender": 1,
+        "departmentId": 4,
+        "department": {
+            "departmentId": 4,
+            "departmentName": "Science and Tech"
+        },
+        "bio": "I am a Jornalist who is intrested in tech and sciense",
+        "photoPath": "img/black_q.jpg"
+    },
+    {
+        "authorId": 7,
+        "firstName": "Anwar",
+        "lastName": "Sadiq",
+        "email": "nabou@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7931359",
+        "gender": 0,
+        "departmentId": 3,
+        "department": {
+            "departmentId": 3,
+            "departmentName": "Politics"
+        },
+        "bio": "I am polictic analysist",
+        "photoPath": "img/a_3.jfif"
+    },
+    {
+        "authorId": 8,
+        "firstName": "Mansour",
+        "lastName": "Sall",
+        "email": "Mansour@gmail.com",
+        "dateOfBirth": "2021-11-27T17:56:12.7931467",
+        "gender": 0,
+        "departmentId": 3,
+        "department": {
+            "departmentId": 3,
+            "departmentName": "Politics"
+        },
+        "bio": "I am polictic analysist",
+        "photoPath": "img/a_3.jfif"
+    }
+]

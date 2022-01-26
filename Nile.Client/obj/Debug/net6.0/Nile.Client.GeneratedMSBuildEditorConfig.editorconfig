@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Nile.Client
+build_property.RootNamespace = Nile.Client
+build_property.ProjectDir = c:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/About-us.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQtdXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/Account/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/Account/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/ArticalViews/CreateArticle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNhbFZpZXdzXENyZWF0ZUFydGljbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/ArticalViews/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNhbFZpZXdzXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/ArticalViews/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNhbFZpZXdzXERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/ArticalViews/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNhbFZpZXdzXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/ArticalViews/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNhbFZpZXdzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/AuthorViews/AuthorProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yVmlld3NcQXV0aG9yUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/AuthorViews/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yVmlld3NcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/CommentViews/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbWVudFZpZXdzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/DepartmentViews/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFZpZXdzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/HeroSection.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlcm9TZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/Icons/EmailIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEljb25zXEVtYWlsSWNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/Icons/PersonIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEljb25zXFBlcnNvbkljb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/SideBarMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGVCYXJNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/SideBarToggler.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGVCYXJUb2dnbGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/AuthorViews/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yVmlld3NcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-1fpdy0gzzt
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/AccountLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFjY291bnRMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mwlk9koap0
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/AccountNavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFjY291bnROYXZCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l2y1koaa3u
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-az5vv61b2f
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-k11ilcazoj
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Maxo/source/repos/Blazor_wasb/Nile.Client/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope =
