@@ -18,14 +18,16 @@ public class ArticleRepository : IArticleRepository
         return result.Entity;
     }
 
-    public async void DeleteArticle(int id)
+    public async Task<Article> DeleteArticle(int id)
     {
         var result = await context.Articles.FirstOrDefaultAsync(a => a.ArticleId == id);
         if (result != null)
         {
             context.Articles.Remove(result);
             await context.SaveChangesAsync();
+            return result;
         }
+        return null;
     }
 
     public async Task<Article> GetArticleById(int id) =>
@@ -36,6 +38,7 @@ public class ArticleRepository : IArticleRepository
 
     public async Task<IEnumerable<Article>> GetArticles() =>
         await context.Articles
+            .Include(r => r.Author)
             .AsNoTracking()
             .OrderBy(x => x.Title)
             .ToListAsync();

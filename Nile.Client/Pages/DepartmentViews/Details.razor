@@ -1,1 +1,56 @@
-<h1>Related Authors to this Department</h1>
+@page "/Department/Details/{id}"
+@inherits DetailsBase
+
+<PageTitle>@Department.DepartmentName Dept Details</PageTitle>
+<div class="headerBar is-justify-items-center">
+    <h1 class="title-5">Related Authors to <i>@Department.DepartmentName</i></h1>
+    <a href="/Department/Index" class="is-link go-back-link">    
+        <LeftArrowCircle />
+        <span class="is-link">Back to index</span>
+    </a>
+</div>
+
+@if (Department.Authors == null)
+{
+    <div class="center">
+        <p class="spinner"></p>
+    </div>
+}
+else
+{
+    <div class="card-deck my-4 is-flex is-flex-wrap-wrap " >
+        @foreach(Author depAuth in Department.Authors )
+        {
+            <AuthorCard Author="depAuth" OnAuthorDeleted="AuthorDeleted"/>  
+
+            @* <div class="card is-flex is-flex-direction-column is-justify-content-space-between is-flex-grow-1 is-flex-shrink-1" 
+                            style="width: 217px;">                
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="@depAuth.PhotoPath" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-size-7 is-uppercase">@depAuth.FirstName @depAuth.LastName</p>
+                            
+                            <p class="subtitle is-7">@depAuth.Email</p>
+                        </div>
+                    </div>
+                    <div class="content pt-0 mt-0">               
+                        <p class="m-0">  @(depAuth.Bio.Length < 100 ? depAuth.Bio : depAuth.Bio.Substring(0,60)+"..." ) </p>
+                        <br />
+                        <time class="is-size-7" datetime="2016-1-1">@depAuth.DateOfBirth</time>
+                    </div>
+                </div>
+                    
+                <footer class="card-footer p-0">
+                    <a href='@($"Author/Profile/{depAuth.AuthorId}")' class="card-footer-item">View</a>
+                    <a href='@($"Author/Edit/{depAuth.AuthorId}")' class="card-footer-item">Edit</a>
+                    <a href="#" class="card-footer-item">Delete</a>
+                </footer>
+            </div>   *@
+        }
+    </div>
+}

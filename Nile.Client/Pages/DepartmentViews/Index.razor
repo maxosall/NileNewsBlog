@@ -2,7 +2,14 @@
 @inherits IndexBase
 
 <PageTitle>Department</PageTitle>
-<h1 class="title-5">All Departments</h1>
+
+<div class="headerBar is-justify-items-center">
+    <h1 class="title-5">All Departments</h1>
+    <a href="" class="is-link go-back-link">    
+        <LeftArrowCircle />
+        <span class="is-link">Back to index</span>
+    </a>
+</div>
 @if (Departments == null)
 {
     <div class="spinner"></div>
@@ -10,9 +17,10 @@
 else
 {
     <ul>
-        @foreach(var dep in Departments)
+        @foreach(var department in Departments)
         {
-            <a class="px-2 m-3 button is-primary is-light" href="">@dep.DepartmentName</a>
+            <NavLink href='@($"/Department/Details/{department.DepartmentId}")' class="px-2 m-3 button is-primary is-light">
+            @department.DepartmentName</NavLink>
         }
     </ul>    
 }

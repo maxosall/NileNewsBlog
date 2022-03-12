@@ -1,54 +1,82 @@
 @page "/Author/Edit/{id}"
+@page "/Author/Delete/{id}"
+@page "/Author/Create"
 @using Microsoft.Extensions.Logging
 @using Microsoft.AspNetCore.Components.Forms
 @using NileLib.Components
 @inherits EditAuthorBase
 
-<PageTitle>Edit Author</PageTitle>
-<h1 class="title-5">Edit Author</h1>
+<PageTitle>@PageHeaderText</PageTitle>
+
+<div class="headerBar is-justify-items-center">
+    <h1 class="title-5">@PageHeaderText</h1>
+    <a href="" class="is-link go-back-link">    
+        <LeftArrowCircle />
+        <span class="is-link">Back to index</span>
+    </a>
+</div>
+
+
 <div class="edit-form my-5">
 @if(EditAuthorModel is not null)
 {    
     <EditForm Model="@EditAuthorModel" OnValidSubmit="HandleEditAuthor">
-        <ObjectGraghDataAnnotationsValidator />
+        <ObjectGraphDataAnnotationsValidator />
+        <ValidationSummary />
         <div class="is-flex group-fields">
             <div class="field mr-4">
-                <label asp-for="@EditAuthorModel.FirstName" class="label">First Name</label>
+                <label for="FirstName" class="label">First Name</label>
                 <div class="control">
-                    <InputText class="input" asp-for="@EditAuthorModel.FirstName" placeholder="Enter your First Name" @bind-Value="EditAuthorModel.FirstName" />
+                    <InputText class="input" id="FirstName" placeholder="Enter your First Name" @bind-Value="EditAuthorModel.FirstName" />
                     <ValidationMessage For="@(()=> EditAuthorModel.FirstName)" />
                 </div>
             </div>
             <div class="field">
-                <label For="@(()=> EditAuthorModel.LastName)" class="label">Last Name</label>
+                <label for="LastName)" class="label">Last Name</label>
                 <div class="control">
-                    <InputText class="input" placeholder="Enter your First Name" @bind-Value="EditAuthorModel.LastName" />
+                    <InputText class="input" id="LastName" placeholder="Enter your Last Name" @bind-Value="EditAuthorModel.LastName" />
                     <ValidationMessage For="@(()=> EditAuthorModel.LastName)" />
                 </div>
             </div>
         </div>
-
         <div class="field">
-            <label asp-for="@EditAuthorModel.Email" class="label">Email</label>
+                <label for="LastName" class="label">Personal Picture</label>
+                <div class="control">
+                    
+                    <div class="file has-name">
+                        <label class="file-label">
+                            <InputFile @bind-Value="EditAuthorModel.PhotoPath" class="file-input" id="PhotoPath" placeholder="Upload a Photo"/>
+                            <span class="file-cta">
+                                <span class="file-icon"><i class="fas fa-upload"></i></span>
+                                <span class="file-label">Choose a file…</span> 
+                            </span>
+                            <span class="file-name">@EditAuthorModel.PhotoPath</span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        <div class="field">
+            <label for="Email" class="label">Email</label>
             <div class="control">
-                <InputText class="input" type="Email" placeholder="Enter your E-mail " @bind-Value="EditAuthorModel.Email" />
+                <InputText class="input" id="Email" placeholder="Enter your E-mail " @bind-Value="EditAuthorModel.Email" />
                 <ValidationMessage For="@(()=> EditAuthorModel.Email)" />
             </div>
         </div>
         
         <div class="field">
-            <label asp-for="@EditAuthorModel.Email" class="label">Confirm Email</label>
+            <label for="Email" class="label">Confirm Email</label>
             <div class="control">
-                <InputText class="input" type="Email" placeholder="Confirm Enter your E-mail " @bind-Value="EditAuthorModel.ConfirmEmail" />
+                <InputText class="input" id="Email" placeholder="Confirm Enter your E-mail " @bind-Value="EditAuthorModel.ConfirmEmail" />
                 <ValidationMessage For="@(()=> EditAuthorModel.ConfirmEmail)" />
             </div>
         </div>
 
         <div class="is-flex group-fields">
             <div class="field mr-4">
-                <label asp-class="label" class="label">Gender</label>
+                <label for="gender" class="label">Gender</label>
                 <div class="control select is-success">
-                    <InputSelect class="is-success" @bind-Value="EditAuthorModel.Gender">
+                    <InputSelect class="is-success" id="gender" @bind-Value="EditAuthorModel.Gender">
                         @foreach (var gender in Enum.GetValues(typeof(Gender)))
                         {
                             <option value="@gender"> @gender</option>
@@ -57,17 +85,19 @@
                 </div> 
             </div>
             <div class="field">
-                <label class="label">Date Of Birth</label>
+                <label for="dob" class="label">Date Of Birth</label>
                 <div class="control">
-                    <InputDate class="input" @bind-Value="EditAuthorModel.DateOfBirth" />
+                    <InputDate class="input" id="dob" @bind-Value:format="dd/mm/yyyy" @bind-Value="EditAuthorModel.DateOfBirth" />
                 </div>
             </div>
         </div>
         
         <div class="field grop-fields">
-            <label asp-for="@EditAuthorModel.Bio" class="label">Bio</label>
+            <label for="Bio" class="label">Bio</label>
             <div class="control">
-                <InputTextArea rows="6" class="textarea" placeholder="Write some thing about yourself[Bio]" @bind-Value="EditAuthorModel.Bio" />
+                <InputTextArea @bind-Value="EditAuthorModel.Bio" rows="6" id="Bio" 
+                    class="textarea" placeholder="Write something about yourself[Bio]" />
+                @* <span>Bio Length : @(() => EditAuthorModel.Bio?.Length )</span> *@
                 <ValidationMessage For="@(()=> EditAuthorModel.Bio)" />
             </div>
         </div>
@@ -75,10 +105,10 @@
         
        <div class="is-flex">  
             <div class="field">
-                <label asp-class="label" class="label">Department</label>
+                <label for="Department" class="label">Department</label>
                 <div class="control control-group is-flex is-align-items-center">
                     <div class="select">
-                        <CustomInputSelect class="input is-success" @bind-Value="EditAuthorModel.DepartmentId">
+                        <CustomInputSelect id="Department" class="input is-success" @bind-Value="EditAuthorModel.DepartmentId">
                             @foreach (var dep in Departments)
                             {
                                 <option value="@dep.DepartmentId"> @dep.DepartmentName</option>
@@ -93,8 +123,18 @@
 
         <div class="field mt-4">
             <div class="control" id="footer-edit-form">
-                <a href="" class="is-link">Back to index</a>
-                <button class="button is-primary" type="submit"> Save Changes</button>
+                <a href="" class="is-link go-back-link">    
+                    <LeftArrowCircle />
+                    <span class="is-link">Back to index</span>
+                </a>
+                <div class="btn-group-field">
+                    @if(EditAuthorModel.AuthorId > 0) 
+                    {
+                        <button class="button is-danger" type="submit" @onclick="HandleDeleteAuthor">Delete</button>
+                    }
+                    <button class="button is-primary" type="submit" @onclick="Handle_SaveAndAddAnothorOne">Save & Add Another One</button> 
+                    <button class="button is-primary" type="submit">@SaveButtonText</button>                    
+                </div>
             </div>
         </div>
         

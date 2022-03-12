@@ -8,6 +8,7 @@ namespace Nile.Client.Pages.DepartmentViews
     {
         [Inject]
         public IDepartmentService DepartmentService { get; set; }
+        [Inject]
         public IEnumerable<Department> Departments { get; set; }
         protected override async Task OnInitializedAsync()
         {

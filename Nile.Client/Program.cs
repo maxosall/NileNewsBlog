@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Nile.Client;
 using Nile.Client.Data;
+using Nile.Client.Models;
 using Nile.Client.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,12 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddAutoMapper(typeof(AuthorProfileMapper));
+
 builder.Services.AddHttpClient<IAuthorService, AuthorService>(client =>
     client.BaseAddress = new Uri("https://localhost:7117/"));
 builder.Services.AddHttpClient<IDepartmentService, DepartmentService>(client =>
     client.BaseAddress = new Uri("https://localhost:7117/"));
 builder.Services.AddHttpClient<IArticleService, ArticleService>(client =>
     client.BaseAddress = new Uri("https://localhost:7117/"));
+builder.Services.AddHttpClient<ICommentService, CommentService>(client => 
+    client.BaseAddress = new Uri("https://localhost:7117/"));   
 
 builder.Services.AddSingleton<WeatherForecastService>();
 // builder.Services.AddMemoryCache();

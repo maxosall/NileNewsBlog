@@ -10,6 +10,6 @@ public interface IArticleRepository
     Task<Article> AddArticle(Article article);
     Task<Article> UpdateArticle(Article article);
 
-    void DeleteArticle(int id);
+    Task<Article> DeleteArticle(int id);
 
 }

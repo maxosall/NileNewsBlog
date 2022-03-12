@@ -1,15 +1,26 @@
 <aside class="menu">
     <p class="menu-label">General</p>
     <ul class="menu-list">
-        <li><a href="/About" class="py-3">About Us</a></li>
-        <li><a href="/fetchdata" class="py-3">Fetch Data</a></li>
-        <li><a href="/Article/Create" class="py-3">Create Article</a></li>
-        <li><a href="/" class="py-3">List Authors</a></li>
-        <li><a href="/Department/Index" class="py-3">Departments</a></li>
+        <li><NavLink href="/About" class="py-3">About Us</NavLink></li>
+        <li><NavLink href="/fetchdata" class="py-3">Fetch Data</NavLink></li>
+        <li><NavLink href="/Article/Create" class="py-3">Create Article</NavLink></li>
+
+        <li><NavLink href="/Author/Create" class="py-3" @onclick="HandleClick" Match="NavLinkMatch.All">Create New Author</NavLink></li>
+
+        <li><NavLink href="/" class="py-3">List Authors</NavLink></li>
+        <li><NavLink href="/Department/Index" class="py-3">Departments</NavLink></li>
     </ul>
     <p class="menu-label">ACCOUNT</p>
     <ul class="menu-list">
-        <li><a href="/Account/Register" class="py-3">Register</a></li>
-        <li><a href="/Account/Login" class="py-3">Login</a></li>
+        <li><NavLink href="/Account/Register" class="py-3">Register</NavLink></li>
+        <li><NavLink href="/Account/Login" class="py-3">Login</NavLink></li>
     </ul>   
 </aside> 
+
+@code{
+    @inject NavigationManager NavigationManager;
+    private void HandleClick()
+    {
+        NavigationManager.NavigateTo("Author/Create", true);
+    }
+}

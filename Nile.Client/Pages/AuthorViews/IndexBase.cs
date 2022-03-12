@@ -9,24 +9,13 @@ namespace Nile.Client.Pages.AuthorViews
         public IAuthorService AuthorService { get; set; }
         public IEnumerable<Author> Authors { get; set; }
 
-
-
         protected override async Task OnInitializedAsync()
         {
             Authors = (await AuthorService.GetAuthors()).ToList();
         }
-        // pulic string[] slicedBio = Author.Bio.ToString().Split(Author.Bio[100]);
-        // protected string GetBio()
-        // {           
-
-        //     if (Author.Bio.Length < 100)
-        //     {
-        //         return slicedBio = Author.Bio;
-        //     }
-        //     else
-        //     {
-        //         return slicedBio = Author.Bio[0];
-        //     }
-        // }
+        protected async Task AuthorDeleted()
+        {
+            Authors = (await AuthorService.GetAuthors()).ToList();
+        }
     }
 }

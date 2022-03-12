@@ -16,12 +16,14 @@ public class AuthorRepository : IAuthorRepository
         IQueryable<Author> query = context.Authors;
 
         if (!string.IsNullOrEmpty(name))
-            query = (query.Where(a => a.FirstName.ToLower().Contains(name)
-                || a.LastName.ToLower().Contains(name)));
+        {
+            query = query.Where(a => a.FirstName.ToLower().Contains(name)
+                || a.LastName.ToLower().Contains(name));
+        }
 
         if (gender != null)
             query = query.Where(a => a.Gender == gender);
-
+        Console.WriteLine(query.Count());
         return await query.ToListAsync();
     }
 
@@ -32,7 +34,7 @@ public class AuthorRepository : IAuthorRepository
         return result.Entity;
     }
 
-    public async void DeleteAuthor(int id)
+    public async Task<Author> DeleteAuthor(int id)
     {
         var result = await context.Authors.FirstOrDefaultAsync(x => x.AuthorId == id);
 
@@ -40,14 +42,16 @@ public class AuthorRepository : IAuthorRepository
         {
             context.Authors.Remove(result);
             await context.SaveChangesAsync();
+            return result;
         }
+        return null;
     }
 
     public async Task<Author> GetAuthorById(int id)
     {
         return await context.Authors
-        .Include(d => d.Department)
-        .FirstOrDefaultAsync(x => x.AuthorId == id);
+            .Include(d => d.Department)
+            .FirstOrDefaultAsync(x => x.AuthorId == id);
     }
 
     public async Task<Author> GetAuthorByEmail(string email)

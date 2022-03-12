@@ -13,6 +13,11 @@ public class AppDbContext : DbContext
     public DbSet<Comment> Comments { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // modelBuilder.Entity<Department>()
+        //     .HasOne(d => d.Administrator)
+        //     .WithMany()
+        //     .OnDelete(DeleteBehavior.Restrict);
+
         modelBuilder.Entity<Department>().HasData(
             new Department { DepartmentId = 1, DepartmentName = "Sport" });
         modelBuilder.Entity<Department>().HasData(
@@ -127,13 +132,5 @@ public class AppDbContext : DbContext
                 PhotoPath = "img/a_3.jfif"
             });
 
-        // modelBuilder.Entity<Article>().HasData(
-        //     new Article
-        //     {
-        //         Title = "Introduction to ASP.NET Core Blazor",
-        //         Content = "The component class is usually written in the form of a Razor markup page with a .razor file extension. Components in Blazor are formally referred to as Razor components. Razor is a syntax for combining HTML markup with C# code designed for developer productivity. Razor allows you to switch between HTML markup and C# in the same file with IntelliSense programming support in Visual Studio. Razor Pages and MVC also use Razor. Unlike Razor Pages and MVC, which are built around a request/response model, components are used specifically for client-side UI logic and composition.",
-        //         PublishDate = DateTime.Now,
-        //         AuthorId = 1
-        //     });
     }
 }

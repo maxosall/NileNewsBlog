@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Nile.Client.Models;
@@ -13,36 +14,90 @@ namespace Nile.Client.Pages.AuthorViews
         public List<Department> Departments { get; set; } = new List<Department>();
         [Inject]
         public IDepartmentService DepartmentService { get; set; }
-
+        [Inject]
+        public IMapper Mapper { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
+        public string PageHeaderText { get; set; }
+        public string SaveButtonText { get; set; }
         public string DepartmentId { get; set; }
         private Author Author { get; set; } = new Author();
+
         public EditAuthorModel EditAuthorModel { get; set; } = new EditAuthorModel();
 
         [Inject]
         public IAuthorService AuthorService { get; set; }
+
+
         protected async override Task OnInitializedAsync()
         {
-            Author = await AuthorService.GetAuthorById(int.Parse(Id));
+            int.TryParse(Id, out int authorId);
+
+            if (authorId != 0)
+            {
+                PageHeaderText = "Edit Author";
+                SaveButtonText = "Save Changes";
+                Author = await AuthorService.GetAuthorById(int.Parse(Id));
+            }
+            else
+            {
+                PageHeaderText = "Create Author";
+                SaveButtonText = "Save";
+                Author = new Author
+                {
+                    DateOfBirth = DateTime.Now,
+                    Gender = Gender.Male,
+                    DepartmentId = 1,
+                    PhotoPath = "img/a_7.jfif"
+                };
+            }
+
+
             Departments = (await DepartmentService.GetDepartments()).ToList();
             DepartmentId = Author.DepartmentId.ToString();
 
-            EditAuthorModel.AuthorId = Author.AuthorId;
-            EditAuthorModel.FirstName = Author.FirstName;
-            EditAuthorModel.LastName = Author.LastName;
-            EditAuthorModel.Gender = Author.Gender;
-            EditAuthorModel.Bio = Author.Bio;
-            EditAuthorModel.DateOfBirth = Author.DateOfBirth;
-            EditAuthorModel.Email = Author.Email;
-            EditAuthorModel.ConfirmEmail = Author.Email;
-            EditAuthorModel.DepartmentId = Author.DepartmentId;
-            EditAuthorModel.Department = Author.Department;
-            EditAuthorModel.Articles = Author.Articles;
-            EditAuthorModel.PhotoPath = Author.PhotoPath;
+            Mapper.Map(Author, EditAuthorModel);
         }
 
-        public void HandleEditAuthor()
+        protected async Task HandleEditAuthor()
         {
+            Mapper.Map(EditAuthorModel, Author);
+            Author result = await CreateAndSaveAuthor();
 
+            if (result != null)
+            {
+                NavigationManager.NavigateTo("/");
+            }
+        }
+
+        private async Task<Author> CreateAndSaveAuthor()
+            => Author.AuthorId != 0
+                ? await AuthorService.UpdateAuthor(Author)
+                : await AuthorService.CreateAuthor(Author);
+
+        protected async Task HandleDeleteAuthor()
+        {
+            await AuthorService.DeleteAuthor(Author.AuthorId);
+            NavigationManager.NavigateTo("/");
+        }
+        protected async Task Handle_SaveAndAddAnothorOne()
+        {
+            Mapper.Map(EditAuthorModel, Author);
+            Author result = await CreateAndSaveAuthor();
+            if (result != null)
+            {
+                Author = new Author
+                {
+
+                    FirstName = "",
+                    LastName = string.Empty,
+                    Email = string.Empty,
+                    DepartmentId = 4,
+                    Bio = string.Empty
+                };
+                NavigationManager.NavigateTo("Author/Create");
+            }
         }
     }
 }
+

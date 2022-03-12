@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M1Ju3RtlIkd2SeJHGgicrlgJgL5i7Wo3ZnaXi/CxlDih7MtDh7jVVvScUS5UuSV/qc6TIbFo2yNuG2Z7ZEFq8w==",
+  "dgSpecHash": "kBJR2nMhneLaWrvUdZzbk7FFFauTDD6MKB/K2e9uxH9KiKNBVxDFQMbaVNdBpP5HBM/aB7mhUaYe0W+PJj+ing==",
   "success": true,
   "projectFilePath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.API\\Nile.API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Maxo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Maxo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Maxo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Maxo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Maxo\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\Maxo\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\Maxo\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

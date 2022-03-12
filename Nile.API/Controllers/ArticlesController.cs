@@ -59,6 +59,24 @@ public class ArticlesController : ControllerBase
         }
     }
 
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<Article>> DeleteArticle(int id)
+    {
+        try
+        {
+            var ArticleToDelete = await articleRepository.GetArticleById(id);
+            if (ArticleToDelete == null)
+            {
+                return NotFound($"Author with ID {id} not Found");
+            }
+            return await articleRepository.DeleteArticle(id);
+        }
+        catch (Exception)
+        {
+            return StatusCode500("Error DELETING data from the database");
+        }
+    }
+
     [HttpPut("{id:int}")]
     public async Task<ActionResult<Article>> UpdateArticle(int id, Article article)
     {

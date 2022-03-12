@@ -1,0 +1,31 @@
+@inherits AuthorCardBase
+<div class="card is-flex is-flex-direction-column is-justify-content-space-between is-flex-grow-1 is-flex-shrink-1" 
+                style="width: 217px;">                
+    <div class="card-content">
+        <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                    <img src="@Author.PhotoPath" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-size-7 is-uppercase">@Author.FirstName @Author.LastName</p>
+                
+                <p class="subtitle is-7">@Author.Email</p>
+            </div>
+        </div>
+        <div class="content pt-0 mt-0">               
+            <p class="m-0">  @(Author.Bio.Length < 100 ? Author.Bio : Author.Bio.Substring(0,60)+"..." ) </p>
+            <br />
+            <time class="is-size-7" datetime="2016-1-1">@Author.DateOfBirth</time>
+        </div>
+    </div>
+        
+    <footer class="card-footer p-0">
+        <a href='@($"Author/Profile/{Author.AuthorId}")' class="card-footer-item">View</a>
+        <a href='@($"Author/Edit/{Author.AuthorId}")' class="card-footer-item">Edit</a>
+        <button type="button" class="card-footer-item" @onclick="Delete_Click">Delete</button>
+    </footer>
+</div> 
+@* <Confirm @ref="DeleteConfirmation"> </Confirm> *@
+

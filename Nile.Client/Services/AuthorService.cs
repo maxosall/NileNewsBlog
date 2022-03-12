@@ -1,3 +1,4 @@
+using System.Net.Http;
 using System.Net.Http.Json;
 using Nile.lib;
 
@@ -10,14 +11,15 @@ namespace Nile.Client
             this.httpClient = httpClient ??
             throw new ArgumentNullException(nameof(httpClient));
 
-        public Task<Author> AddAuthor(Author author)
+        public async Task<Author> CreateAuthor(Author newAuthor)
         {
-            throw new NotImplementedException();
+            var response = await httpClient.PostAsJsonAsync<Author>($"api/authors", newAuthor);
+            return await response.Content.ReadFromJsonAsync<Author>();
         }
 
-        public void DeleteAuthor(int id)
+        public async Task DeleteAuthor(int id)
         {
-            throw new NotImplementedException();
+            await httpClient.DeleteAsync($"api/authors/{id}");
         }
 
         public async Task<Author> GetAuthorById(int id)
@@ -29,10 +31,10 @@ namespace Nile.Client
             return await httpClient.GetFromJsonAsync<IEnumerable<Author>>("api/authors");
         }
 
-        public async Task<Author> UpdateAuthor(Author author)
+        public async Task<Author> UpdateAuthor(Author updatedAuthor)
         {
-            //return await httpClient.PutAsync<Author>($"api/authors/{author.AuthorId}");
-            throw new NotImplementedException();
+            var response = await httpClient.PutAsJsonAsync<Author>("api/authors", updatedAuthor);
+            return await response.Content.ReadFromJsonAsync<Author>();
         }
     }
 }

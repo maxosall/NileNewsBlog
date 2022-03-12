@@ -101,7 +101,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 1,
                             Bio = "i'm jornalist and a former Software Engeer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(6895),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9351),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Ali",
@@ -113,7 +113,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 2,
                             Bio = "i'm have Degree in busness and i am a writer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7034),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9504),
                             DepartmentId = 2,
                             Email = "fatima@gmail.com",
                             FirstName = "fatima ",
@@ -125,7 +125,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 3,
                             Bio = "I'm a Writer who graduated from XbU with Polilic science Degree ",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7110),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9593),
                             DepartmentId = 3,
                             Email = "habib@gmail.com",
                             FirstName = "habib ",
@@ -137,7 +137,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 4,
                             Bio = "i am a journalist with CS background",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7739),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9677),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Nancy ",
@@ -149,7 +149,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 5,
                             Bio = "I am a Sport Analyist and a writer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7822),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9764),
                             DepartmentId = 1,
                             Email = "nabou@gmail.com",
                             FirstName = "nabou",
@@ -161,7 +161,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 6,
                             Bio = "I am a Jornalist who is intrested in tech and sciense",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7922),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9877),
                             DepartmentId = 4,
                             Email = "nabou@gmail.com",
                             FirstName = "Noora",
@@ -173,7 +173,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 7,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7995),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 49, DateTimeKind.Local).AddTicks(9964),
                             DepartmentId = 3,
                             Email = "nabou@gmail.com",
                             FirstName = "Anwar",
@@ -185,7 +185,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 8,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(8063),
+                            DateOfBirth = new DateTime(2022, 2, 3, 22, 56, 57, 50, DateTimeKind.Local).AddTicks(46),
                             DepartmentId = 3,
                             Email = "Mansour@gmail.com",
                             FirstName = "Mansour",
@@ -282,7 +282,7 @@ namespace Nile.API.Migrations
             modelBuilder.Entity("Nile.lib.Author", b =>
                 {
                     b.HasOne("Nile.lib.Department", "Department")
-                        .WithMany()
+                        .WithMany("Authors")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -319,6 +319,11 @@ namespace Nile.API.Migrations
                     b.Navigation("Articles");
 
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("Nile.lib.Department", b =>
+                {
+                    b.Navigation("Authors");
                 });
 #pragma warning restore 612, 618
         }

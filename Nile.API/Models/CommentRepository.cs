@@ -6,10 +6,7 @@ namespace Nile.API.Models;
 public class CommentRepository : ICommentRepository
 {
     private readonly AppDbContext context;
-    public CommentRepository(AppDbContext appDbContext)
-    {
-        this.context = appDbContext;
-    }
+    public CommentRepository(AppDbContext appDbContext) => context = appDbContext;
 
     public async Task<Comment> AddComment(Comment comment)
     {
@@ -18,14 +15,16 @@ public class CommentRepository : ICommentRepository
         return result.Entity;
     }
 
-    public async void DeleteComment(int id)
+    public async Task<Comment> DeleteComment(int id)
     {
-        var result = context.Comments.FirstOrDefaultAsync(i => i.CommentId == id);
+        var result = await context.Comments.FirstOrDefaultAsync(i => i.CommentId == id);
         if (result != null)
         {
             context.Remove(result);
             await context.SaveChangesAsync();
+            return result;
         }
+        return null;
     }
 
     public async Task<Comment> GetCommentById(int id)

@@ -1,0 +1,59 @@
+@inherits FooterBase
+
+<div class="container">
+    <div class="columns">
+        <div class="column">
+            <aside class="menu">
+                <p class="menu-label">ACCOUNTS</p>
+                <ul class="menu-list">
+                    <li><a>Login (with email)</a></li>
+                    <li><a>Register (with email)</a></li>
+                </ul>  
+                <p class="menu-label">Register / Login with :</p>
+                <ul class="menu-list">
+                    <li><a>Google</a></li>
+                    <li><a>Facebook</a></li>
+                    <li><a>Twitter</a></li>
+                </ul>              
+            </aside>
+        </div>
+
+        <div class="column">
+            <aside class="menu">
+                <p class="menu-label">All Departments</p>
+                <ul class="menu-list">
+                    @foreach(var dept in Departments)
+                    {
+                        <li><a href='@($"/Department/Details/{dept.DepartmentId}")'>@dept.DepartmentName</a></li>
+                    }                    
+                </ul>                
+            </aside>
+        </div>
+
+        <div class="column">
+            <aside class="menu">            
+                <p class="menu-label">News Letter Box</p>
+                <h1 class="">Subscrib to our newsletter</h1>
+                <form class="news-letter-box">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Put You Email Address...">
+                        </div>
+                        <div class="control"><a class="button is-info">Search</a></div>
+                    </div>
+                </form>
+            </aside>
+            <br />
+            <aside class="menu">
+                <p class="menu-label">Follow Us On Social Media</p>
+                <ul class="menu-list is-flex">
+                    <li><a href=""><img src="/img/facebook.png"/></a></li>
+                    <li><a href=""><img src="/img/instagram.png" /></a></li>
+                    <li><a href=""><img src="../img/twitter.png" /></a></li>
+                    <li><a href=""><img src="../img/linkedin.png" /></a></li>
+                </ul>
+            </aside>
+        </div>
+    </div> 
+       
+</div>

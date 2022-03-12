@@ -39,3 +39,4 @@ C:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\obj\Debug\net6.0\scopedcss\Pa
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Maxo\source\repos\Blazor_wasb\Nile.Client\bin\Debug\net6.0\Microsoft.AspNetCore.Blazor.HttpClient.dll

@@ -8,16 +8,16 @@ namespace Nile.API.Controllers;
 [ApiController]
 public class DepartmentsController : ControllerBase
 {
-    private readonly IDepartmentRepository context;
+    private readonly IDepartmentRepository departmentRepository;
     public DepartmentsController(IDepartmentRepository departmentRepository) =>
-        this.context = departmentRepository;
+        this.departmentRepository = departmentRepository;
 
     [HttpGet]
     public async Task<ActionResult> GetDepartments()
     {
         try
         {
-            return Ok(await context.GetDepartments());
+            return Ok(await departmentRepository.GetDepartments());
         }
         catch (Exception)
         {
@@ -30,16 +30,58 @@ public class DepartmentsController : ControllerBase
     {
         try
         {
-            var result = await context.GetDepartmentById(id);
+            var result = await departmentRepository.GetDepartmentById(id);
             if (result == null) return NotFound();
-            return result;
+            return Ok(result);
         }
         catch (Exception)
         {
             return StatusCode500();
         }
     }
-    private ObjectResult StatusCode500() =>
-                        StatusCode(StatusCodes.Status500InternalServerError,
-                            "Error retrieving data from the database");
+
+    [HttpPost]
+    public async Task<ActionResult<Department>> AddDepartment(Department department)
+    {
+        try
+        {
+            if (department == null) return BadRequest();
+            var deptName = await departmentRepository.GetDepartmentByName(department.DepartmentName);
+            if (deptName != null)
+            {
+                ModelState.AddModelError("DepartmentName", $"[{deptName}] Dept Name is already in use");
+                return BadRequest(ModelState);
+            }
+            var CreatedDepartment = await departmentRepository.AddDepartment(department);
+
+            return CreatedAtAction(nameof(GetDepartmentById),
+                new { id = CreatedDepartment.DepartmentId },
+                CreatedDepartment);
+        }
+        catch (Exception)
+        {
+            return StatusCode500("Error POSTING data to the database");
+        }
+    }
+
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<Department>> DeleteDepartment(int id)
+    {
+        try
+        {
+            var deptToDelete = await departmentRepository.GetDepartmentById(id);
+
+            if (deptToDelete == null)
+            {
+                return NotFound($"Author with ID {id} not Found");
+            }
+            return await departmentRepository.DeleteDepartment(id);
+        }
+        catch (Exception)
+        {
+            return StatusCode500("Error DELETING data from the database");
+        }
+    }
+    private ObjectResult StatusCode500(string statusCode = "Error RETRIEVING data from the database") =>
+                        StatusCode(StatusCodes.Status500InternalServerError, statusCode);
 }

@@ -28,12 +28,13 @@
                 </div>
                 <div class="card-content p-0">
                     <aside class="menu">
-                        <p class="menu-label is-unselectable">Author Details</p>
+                        <p class="menu-label is-unselectable">Author Details</p> 
                         <ul class="menu-list">
-                            <li><a class="is-size-6 is-clickable"><i class="is-size-6 mr-3"><PersonIcon  /></i> @Author.FirstName @Author.LastName</a></li>
-                            <li><a class="is-size-6 " href="#"><i class="is-size-6 mr-3"><EmailIcon /></i> @Author.Email</a></li>
-                            <li><a class="is-size-6 is-clickable"><strong>Gender: </strong>@Author.Gender</a></li>
-                            <li><a class="is-size-6 " >@(Author.Department == null ? "N/A" : Author.Department.DepartmentName ) </a></li>
+                            <li><a class="is-size-6 is-clickable"><i class="is-size-6 mr-3"><PersonIcon /></i> @Author.FirstName @Author.LastName</a></li>
+                            <li><NavLink href="#" class="is-size-6 "><i class="is-size-6 mr-3"><EmailIcon /></i> @(Author.Email == null ? "N/A":Author.Email)</NavLink></li>
+                            <li><a class="is-size-6 is-clickable"><strong>Gender: </strong> @Author.Gender </a></li>
+                            <li><NavLink href="#" class="is-size-6"> @(Author.Department == null ? "N/A" : Author.Department.DepartmentName ) </NavLink></li>
+                            
                         </ul>                        
                     </aside>                               
                 </div>
@@ -42,7 +43,14 @@
         </div>
         <div class="colimn is-8">    
             <div class="profile-card card is-shadowless is-radiusless">
-                <h3 class="title-5">About me</h3>
+                @* <h3 class="title-5">About me</h3> *@
+                <div class="headerBar is-justify-items-center">
+                            <h1 class="title-5">About me</h1>
+                            <a href="" class="is-link go-back-link">    
+                                <LeftArrowCircle />                                
+                                <span class="is-link">Back to index</span>
+                            </a>
+                        </div>
                 <div class="card-content py-3 p-0">
                     <p class="content p-0 has-text-justified"> @Author.Bio </p>
                 </div>

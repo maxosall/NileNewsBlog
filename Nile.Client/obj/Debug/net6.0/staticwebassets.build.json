@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tfYepTXic0ZQQz/ypyBEcDWv4/ol29WoAUpMg5QOpLA=",
+  "Hash": "1for+jCVM2yGeSHDcuneaTBi5qO5wIHPEeO4PkmykoY=",
   "Source": "Nile.Client",
   "BasePath": "_content/Nile.Client",
   "Mode": "Default",
@@ -1260,6 +1260,40 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook-48.png"
     },
     {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\facebook.png",
+      "SourceId": "Nile.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "BasePath": "_content/Nile.Client",
+      "RelativePath": "img/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\facebook.png"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\instagram.png",
+      "SourceId": "Nile.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "BasePath": "_content/Nile.Client",
+      "RelativePath": "img/instagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\instagram.png"
+    },
+    {
       "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\linkedin-circled-48.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
@@ -1275,6 +1309,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\linkedin-circled-48.png"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\linkedin.png",
+      "SourceId": "Nile.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "BasePath": "_content/Nile.Client",
+      "RelativePath": "img/linkedin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\linkedin.png"
     },
     {
       "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\SearchIcon.png",
@@ -1309,6 +1360,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\twitter-48.png"
+    },
+    {
+      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\twitter.png",
+      "SourceId": "Nile.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "BasePath": "_content/Nile.Client",
+      "RelativePath": "img/twitter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\twitter.png"
     },
     {
       "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\js\\index.js",

@@ -23,12 +23,10 @@ public class AuthorsController : ControllerBase
     {
         try
         {
-            Console.WriteLine("-- Fetching Data From AUTHOR Table succeed it --");
             return Ok(await authorRepository.GetAuthors());
         }
         catch (Exception)
         {
-            Console.WriteLine("-- Fetching Data From AUTHOR Table Failed! -- ");
             return StatusCode500();
         }
     }
@@ -55,39 +53,54 @@ public class AuthorsController : ControllerBase
         {
             if (author == null) return BadRequest();
 
-            var athr = authorRepository.GetAuthorByEmail(author.Email);
-            if (athr != null)
+            var authorEmail = await authorRepository.GetAuthorByEmail(author.Email);
+            if (authorEmail != null)
             {
                 ModelState.AddModelError("email", "author's email is already in use");
                 return BadRequest(ModelState);
             }
             var createdAuthor = await authorRepository.AddAuthor(author);
             return CreatedAtAction(nameof(GetAuthorById),
-                new { id = createdAuthor.AuthorId },
-                createdAuthor);
+                new { id = createdAuthor.AuthorId }, createdAuthor);
         }
         catch (Exception)
         {
-            return StatusCode500("Error posting data to the database");
+            return StatusCode500("Error POSTING data to the database");
         }
     }
 
-    [HttpPut("{id:int}")]
-    public async Task<ActionResult<Author>> UpdateAuthor(int id, Author author)
+    [HttpDelete("{id:int}")]
+    public async Task<ActionResult<Author>> DeleteAuthor(int id)
     {
         try
         {
-            if (id != author.AuthorId) return BadRequest("Author ID missmatch");
-
-            var authorToUpdate = await authorRepository.GetAuthorById(id);
-
-            if (authorToUpdate == null)
-                return NotFound($"Author with id= {id} is not founf");
-            return await authorRepository.UpdateAuthor(author);
+            // if(id == null) return NotFound("Author ID missmatch");
+            var authorToDelete = await authorRepository.GetAuthorById(id);
+            return authorToDelete == null
+                ? (ActionResult<Author>)NotFound($"Author with ID {id} not Found")
+                : (ActionResult<Author>)await authorRepository.DeleteAuthor(id);
         }
         catch (Exception)
         {
-            return StatusCode500("Error updating data from the database");
+            return StatusCode500("Error DELETING data from the database");
+        }
+    }
+
+    [HttpPut]
+    public async Task<ActionResult<Author>> UpdateAuthor(Author author)
+    {
+        try
+        {
+            //if (id != author.AuthorId) return BadRequest("Author ID missmatch");
+            var authorToUpdate = await authorRepository.GetAuthorById(author.AuthorId);
+
+            return authorToUpdate == null
+                ? (ActionResult<Author>)NotFound($"Author with ID= {author.AuthorId} is not found")
+                : (ActionResult<Author>)await authorRepository.UpdateAuthor(author);
+        }
+        catch (Exception)
+        {
+            return StatusCode500("Error UPDATING data from the database");
         }
     }
 
@@ -98,7 +111,7 @@ public class AuthorsController : ControllerBase
         {
             var result = await authorRepository.Search(name, gender);
             if (result.Any()) return Ok(result);
-            return NotFound();
+            return NotFound("Not Found");
         }
         catch (Exception)
         {
@@ -106,6 +119,5 @@ public class AuthorsController : ControllerBase
         }
     }
     private ObjectResult StatusCode500(string statusCode = "Error retrieving data from the database") =>
-                        StatusCode(StatusCodes.Status500InternalServerError,
-                            statusCode);
+                        StatusCode(StatusCodes.Status500InternalServerError, statusCode);
 }

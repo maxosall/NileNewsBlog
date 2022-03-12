@@ -85,3 +85,4 @@ C:\Users\Maxo\source\repos\Blazor_wasb\Nile.API\bin\Debug\net6.0\NileLib.Compone
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.API\bin\Debug\net6.0\Nile.API.staticwebassets.runtime.json
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.API\bin\Debug\net6.0\NileLib.Components.dll
 C:\Users\Maxo\source\repos\Blazor_wasb\Nile.API\bin\Debug\net6.0\NileLib.Components.pdb
+C:\Users\Maxo\source\repos\Blazor_wasb\Nile.API\bin\Debug\net6.0\Newtonsoft.Json.dll

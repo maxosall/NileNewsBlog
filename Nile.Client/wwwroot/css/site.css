@@ -433,7 +433,24 @@ a.btn-login.is-small.button:hover {
         padding: 1.5rem;
         position: relative;
     }
+    div#footer-edit-form {
+        flex-direction: column;
+    }
+    div#footer-edit-form .btn-group-field {
+        flex-direction: column;
+    }
+    div#footer-edit-form a.is-link.go-back-link {
+        padding: 1rem;
+    }
 }
+a.is-link.go-back-link {
+    display: flex;
+    align-items: center;
+}
+section.section.page-section {
+    padding: 1rem !important;
+}
+
 @media screen and (min-width: 1024px) {
     .container > .navbar .navbar-brand,
     .navbar > .container .navbar-brand {
@@ -541,5 +558,86 @@ form.notification {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    align-items: center;
+}
+
+ul.validation-errors {
+    background: #feecf0;
+    padding: 1rem;
+}
+.btn-group-field {
+    display: flex;
+    gap: 1rem;
+}
+.card-deck .card {
+    max-width: 50%;
+}
+.headerBar {
+    display: flex;
+    justify-content: space-between;
+}
+.headerBar span {
+    text-decoration: underline;
+}
+footer.__footer__ {
+    padding: 1rem;
+    border-radius: 0 !important;
+    background-color: #211f1f;
+}
+.__footer__ .menu-list a {
+    color: aliceblue;
+    border-bottom: 0px !important;
+}
+.__footer__ input.input {
+    background: #eee;
+    border: 0px;
+    border-radius: 5px 0px 0px 5px !important;
+}
+.__footer__ a.button.is-info {
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.tale {
+    padding-top: 1rem;
+    text-align: center;
+}
+.__footer__ h1 {
+    padding: 1rem 0rem;
+    font-weight: bold;
+    color: #ededed;
+}
+span.file-cta {
+    border-radius: 5px 0px 0px 5px !important;
+}
+span.file-name {
+    border-radius: 0px 5px 5px 0px !important;
+}
+.__footer__ img {
+    width: 2rem;
+}
+.__footer__ input.input ::-webkit-input-placeholder {
+    /* Edge */
+    color: #0077b578;
+    text-transform: lowercase;
+}
+
+.__footer__ input.input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #0077b578;
+    text-transform: lowercase;
+}
+
+.__footer__ input.input::placeholder {
+    color: #0077b578;
+    text-transform: lowercase;
+}
+button.card-footer-item {
+    background: white;
+    border: none;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+.headerBar a.go-back-link {
+    display: flex;
     align-items: center;
 }

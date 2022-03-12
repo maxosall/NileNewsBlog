@@ -12,5 +12,6 @@ namespace Nile.lib
         [MaxLength(65)]
         [Column(TypeName = "varchar(65)")]
         public string DepartmentName { get; set; }
+        public virtual List<Author>? Authors { get; set; } = new List<Author>();
     }
 }

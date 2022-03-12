@@ -1,0 +1,16 @@
+@inherits ConfirmBase
+
+@if(ShowConfirmation)
+{
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">    
+            <h1>Are you sure you wanna delete this Element</h1>
+            <div class="is-flex">
+                <button type="button" class="button is-light">Cancel</button>
+                <button type="button" class="button is-danger">Yes, go ahead</button>
+            </div>    
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+}

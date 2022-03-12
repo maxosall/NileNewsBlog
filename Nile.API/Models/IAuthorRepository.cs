@@ -11,5 +11,5 @@ public interface IAuthorRepository
     Task<Author> GetAuthorByEmail(string email);
     Task<Author> AddAuthor(Author author);
     Task<Author> UpdateAuthor(Author author);
-    void DeleteAuthor(int id);
+    Task<Author> DeleteAuthor(int id);
 }

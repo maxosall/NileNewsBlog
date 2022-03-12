@@ -14,7 +14,6 @@ namespace Nile.Client.Pages.AuthorViews
         protected async override Task OnInitializedAsync()
         {
             Author = await AuthorService.GetAuthorById(int.Parse(Id));
-            //bio = await SliceBio();
         }
     }
 }
