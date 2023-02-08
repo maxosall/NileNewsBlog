@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x+rEeEJE1wiyxZkIrHvtYbPqPBsQ2yzeyVHf1K7xYrs=",
+  "Hash": "2ZQ5dNUFntw3fWjMMr8zGyyt8hUxvKnR7ubKu345010=",
   "Source": "NileLib.Components",
   "BasePath": "_content/NileLib.Components",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NileLib.Components\\wwwroot",
       "Source": "NileLib.Components",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css",
       "SourceId": "NileLib.Components",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "NileLib.Components.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css"
+      "OriginalItemSpec": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NileLib.Components.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css",
       "SourceId": "NileLib.Components",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "NileLib.Components.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\background.png",
       "SourceId": "NileLib.Components",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\exampleJsInterop.js",
       "SourceId": "NileLib.Components",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

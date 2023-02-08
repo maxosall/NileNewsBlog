@@ -1,17 +1,4 @@
-// namespace Nile.API
-// {
-//     public class Program
-//     {
-//         public static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
 
-//         public static IHostBuilder CreateHostBuilder(string[] args) =>
-//             Host.CreateDefaultBuilder(args)
-//                 .ConfigureWebHostDefaults(webBuilder =>
-//                 {
-//                     webBuilder.UseStartup<Startup>();
-//                 });
-//     }
-// }
 using System.Text.Json.Serialization;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -21,12 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
-
-
-// builder.Services.AddDbContext<AppDbContext>(options =>
-//     options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
-//"DbConnection": "Data Source=NileBlogDB.db"
+    options.UseSqlite(builder.Configuration.GetConnectionString("DBConnection")));
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();

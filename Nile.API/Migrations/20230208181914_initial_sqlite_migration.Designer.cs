@@ -2,7 +2,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Nile.API.Models;
@@ -12,35 +11,29 @@ using Nile.API.Models;
 namespace Nile.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211211005727_Author_Comments_Relationshop")]
-    partial class Author_Comments_Relationshop
+    [Migration("20230208181914_initial_sqlite_migration")]
+    partial class initial_sqlite_migration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.0")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            modelBuilder.HasAnnotation("ProductVersion", "6.0.0");
 
             modelBuilder.Entity("Nile.lib.Article", b =>
                 {
                     b.Property<int>("ArticleId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ArticleId"), 1L, 1);
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("AuthorId")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Content")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("PublishDate")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -58,23 +51,23 @@ namespace Nile.API.Migrations
                 {
                     b.Property<int>("AuthorId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AuthorId"), 1L, 1);
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Bio")
+                        .IsRequired()
                         .HasMaxLength(450)
                         .HasColumnType("varchar(450)");
 
                     b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -82,7 +75,7 @@ namespace Nile.API.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.Property<int?>("Gender")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -90,7 +83,7 @@ namespace Nile.API.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.Property<string>("PhotoPath")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.HasKey("AuthorId");
 
@@ -103,7 +96,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 1,
                             Bio = "i'm jornalist and a former Software Engeer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(6895),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1112),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Ali",
@@ -115,7 +108,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 2,
                             Bio = "i'm have Degree in busness and i am a writer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7034),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1246),
                             DepartmentId = 2,
                             Email = "fatima@gmail.com",
                             FirstName = "fatima ",
@@ -127,7 +120,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 3,
                             Bio = "I'm a Writer who graduated from XbU with Polilic science Degree ",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7110),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1315),
                             DepartmentId = 3,
                             Email = "habib@gmail.com",
                             FirstName = "habib ",
@@ -139,7 +132,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 4,
                             Bio = "i am a journalist with CS background",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7739),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1384),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Nancy ",
@@ -151,7 +144,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 5,
                             Bio = "I am a Sport Analyist and a writer",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7822),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1450),
                             DepartmentId = 1,
                             Email = "nabou@gmail.com",
                             FirstName = "nabou",
@@ -163,7 +156,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 6,
                             Bio = "I am a Jornalist who is intrested in tech and sciense",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7922),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1536),
                             DepartmentId = 4,
                             Email = "nabou@gmail.com",
                             FirstName = "Noora",
@@ -175,7 +168,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 7,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(7995),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1603),
                             DepartmentId = 3,
                             Email = "nabou@gmail.com",
                             FirstName = "Anwar",
@@ -187,7 +180,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 8,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2021, 12, 11, 2, 57, 24, 261, DateTimeKind.Local).AddTicks(8063),
+                            DateOfBirth = new DateTime(2023, 2, 8, 20, 19, 12, 921, DateTimeKind.Local).AddTicks(1668),
                             DepartmentId = 3,
                             Email = "Mansour@gmail.com",
                             FirstName = "Mansour",
@@ -201,25 +194,23 @@ namespace Nile.API.Migrations
                 {
                     b.Property<int>("CommentId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("ArticleId")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("AuthorId")
-                        .HasColumnType("int");
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("CommentContent")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("LastModifiedDate")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("TEXT");
 
                     b.HasKey("CommentId");
 
@@ -234,9 +225,7 @@ namespace Nile.API.Migrations
                 {
                     b.Property<int>("DepartmentId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DepartmentId"), 1L, 1);
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("DepartmentName")
                         .IsRequired()
@@ -284,7 +273,7 @@ namespace Nile.API.Migrations
             modelBuilder.Entity("Nile.lib.Author", b =>
                 {
                     b.HasOne("Nile.lib.Department", "Department")
-                        .WithMany()
+                        .WithMany("Authors")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -303,7 +292,7 @@ namespace Nile.API.Migrations
                     b.HasOne("Nile.lib.Author", "Author")
                         .WithMany("Comments")
                         .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Article");
@@ -321,6 +310,11 @@ namespace Nile.API.Migrations
                     b.Navigation("Articles");
 
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("Nile.lib.Department", b =>
+                {
+                    b.Navigation("Authors");
                 });
 #pragma warning restore 612, 618
         }
