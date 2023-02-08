@@ -12,23 +12,25 @@ namespace Nile.Client.Services
 
         public async Task<Article> AddArticle(Article article)
         {
-            throw new NotImplementedException();
+            var response = await httpClient.PostFromJsonAsync("api/articles", article);
+            return await response.Content.ReadFromJsonAsync<Article>();
         }
 
         public void DeleteArticle(int id)
         {
-            throw new NotImplementedException();
+            await httpClient.DeleteAsync($"api/articles/{id}");
         }
 
         public async Task<Article> GetArticleById(int id) =>
-            await httpClient.GetFromJsonAsync<Article>($"api/Article/{id}");
+            await httpClient.GetFromJsonAsync<Article>($"api/articles/{id}");
 
         public async Task<IEnumerable<Article>> GetArticles() =>
-            await httpClient.GetFromJsonAsync<IEnumerable<Article>>("api/Articles/");
+            await httpClient.GetFromJsonAsync<IEnumerable<Article>>("api/articles/");
 
         public Task<Article> UpdateArticle(Article article)
         {
-            throw new NotImplementedException();
+            var response = await httpClient.PutAsJsonAsync<Article>("api/articles", article);
+            return await response.Content.ReadFromJsonAsync<Article>();
         }
     }
 }

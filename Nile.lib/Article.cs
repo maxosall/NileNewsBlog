@@ -11,12 +11,13 @@ namespace Nile.lib
         [Column(TypeName = "varchar(150)")]
         public string Title { get; set; }
         [Required]
+        [Column(TypeName = "nvarchar(500)")]
         public string Content { get; set; }
 
         public DateTime PublishDate { get; set; } = DateTime.Now;
         public int AuthorId { get; set; }
-        public virtual Author Author { get; set; }
-        public virtual List<Comment> Comments { get; set; } = new List<Comment>();
+        public virtual Author? Author { get; set; }
+        public virtual List<Comment>? Comments { get; set; } = new List<Comment>();
     }
 
 
