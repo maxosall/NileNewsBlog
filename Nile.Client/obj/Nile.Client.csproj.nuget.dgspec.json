@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\Nile.Client.csproj": {}
+    "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\Nile.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\Nile.Client.csproj": {
+    "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\Nile.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\Nile.Client.csproj",
+        "projectUniqueName": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\Nile.Client.csproj",
         "projectName": "Nile.Client",
-        "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\Nile.Client.csproj",
-        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\",
+        "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\Nile.Client.csproj",
+        "packagesPath": "C:\\Users\\maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maxo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\Nile.lib.csproj": {
-                "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\Nile.lib.csproj"
+              "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj": {
+                "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj"
               },
-              "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj": {
-                "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj"
+              "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj": {
+                "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj"
               }
             }
           }
@@ -82,36 +80,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\Nile.lib.csproj": {
+    "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\Nile.lib.csproj",
+        "projectUniqueName": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj",
         "projectName": "Nile.lib",
-        "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\Nile.lib.csproj",
-        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.lib\\obj\\",
+        "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj",
+        "packagesPath": "C:\\Users\\maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maxo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj": {
-                "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj"
+              "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj": {
+                "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj"
               }
             }
           }
@@ -152,28 +148,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj": {
+    "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj",
+        "projectUniqueName": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj",
         "projectName": "NileLib.Components",
-        "projectPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj",
-        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\",
+        "projectPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj",
+        "packagesPath": "C:\\Users\\maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maxo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -212,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

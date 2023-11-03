@@ -29,6 +29,10 @@ public class AuthorRepository : IAuthorRepository
 
     public async Task<Author> AddAuthor(Author author)
     {
+        author.Articles = null;
+        author.Comments = null;
+        author.Department= null;
+
         var result = await context.Authors.AddAsync(author);
         await context.SaveChangesAsync();
         return result.Entity;

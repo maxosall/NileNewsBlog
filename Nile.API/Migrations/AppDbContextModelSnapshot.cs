@@ -17,6 +17,21 @@ namespace Nile.API.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.0");
 
+            modelBuilder.Entity("ArticleCategory", b =>
+                {
+                    b.Property<int>("ArticlesArticleId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CategoriesId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("ArticlesArticleId", "CategoriesId");
+
+                    b.HasIndex("CategoriesId");
+
+                    b.ToTable("ArticleCategory");
+                });
+
             modelBuilder.Entity("Nile.lib.Article", b =>
                 {
                     b.Property<int>("ArticleId")
@@ -28,9 +43,9 @@ namespace Nile.API.Migrations
 
                     b.Property<string>("Content")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(500)");
 
-                    b.Property<DateTime>("PublishDate")
+                    b.Property<DateTime>("DatePublished")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
@@ -93,7 +108,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 1,
                             Bio = "i'm jornalist and a former Software Engeer",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(3899),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3196),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Ali",
@@ -105,7 +120,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 2,
                             Bio = "i'm have Degree in busness and i am a writer",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4049),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3471),
                             DepartmentId = 2,
                             Email = "fatima@gmail.com",
                             FirstName = "fatima ",
@@ -117,7 +132,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 3,
                             Bio = "I'm a Writer who graduated from XbU with Polilic science Degree ",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4137),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3595),
                             DepartmentId = 3,
                             Email = "habib@gmail.com",
                             FirstName = "habib ",
@@ -129,7 +144,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 4,
                             Bio = "i am a journalist with CS background",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4225),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3704),
                             DepartmentId = 4,
                             Email = "maxo@gmail.com",
                             FirstName = "Nancy ",
@@ -141,7 +156,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 5,
                             Bio = "I am a Sport Analyist and a writer",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4305),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3809),
                             DepartmentId = 1,
                             Email = "nabou@gmail.com",
                             FirstName = "nabou",
@@ -153,7 +168,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 6,
                             Bio = "I am a Jornalist who is intrested in tech and sciense",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4412),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(3936),
                             DepartmentId = 4,
                             Email = "nabou@gmail.com",
                             FirstName = "Noora",
@@ -165,7 +180,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 7,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4492),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(4043),
                             DepartmentId = 3,
                             Email = "nabou@gmail.com",
                             FirstName = "Anwar",
@@ -177,7 +192,7 @@ namespace Nile.API.Migrations
                         {
                             AuthorId = 8,
                             Bio = "I am polictic analysist",
-                            DateOfBirth = new DateTime(2023, 2, 8, 20, 52, 4, 696, DateTimeKind.Local).AddTicks(4569),
+                            DateOfBirth = new DateTime(2023, 5, 17, 2, 48, 5, 369, DateTimeKind.Local).AddTicks(4144),
                             DepartmentId = 3,
                             Email = "Mansour@gmail.com",
                             FirstName = "Mansour",
@@ -185,6 +200,21 @@ namespace Nile.API.Migrations
                             LastName = "Sall",
                             PhotoPath = "img/a_3.jfif"
                         });
+                });
+
+            modelBuilder.Entity("Nile.lib.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Nile.lib.Comment", b =>
@@ -254,6 +284,21 @@ namespace Nile.API.Migrations
                             DepartmentId = 4,
                             DepartmentName = "Science and Tech"
                         });
+                });
+
+            modelBuilder.Entity("ArticleCategory", b =>
+                {
+                    b.HasOne("Nile.lib.Article", null)
+                        .WithMany()
+                        .HasForeignKey("ArticlesArticleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Nile.lib.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Nile.lib.Article", b =>

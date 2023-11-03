@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using Nile.Client;
-using Nile.Client.Data;
 using Nile.Client.Models;
 using Nile.Client.Services;
 
@@ -18,10 +15,12 @@ builder.Services.AddHttpClient<IDepartmentService, DepartmentService>(client =>
     client.BaseAddress = new Uri("https://localhost:7117/"));
 builder.Services.AddHttpClient<IArticleService, ArticleService>(client =>
     client.BaseAddress = new Uri("https://localhost:7117/"));
-builder.Services.AddHttpClient<ICommentService, CommentService>(client => 
-    client.BaseAddress = new Uri("https://localhost:7117/"));   
+builder.Services.AddHttpClient<ICommentService, CommentService>(client =>
+    client.BaseAddress = new Uri("https://localhost:7117/"));
 
-builder.Services.AddSingleton<WeatherForecastService>();
+// builder.Services.AddScoped(sp =>
+//     new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+// builder.Services.AddSingleton<WeatherForecastService>();
 // builder.Services.AddMemoryCache();
 
 var app = builder.Build();

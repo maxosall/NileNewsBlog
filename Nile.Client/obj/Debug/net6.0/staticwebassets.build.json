@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "1for+jCVM2yGeSHDcuneaTBi5qO5wIHPEeO4PkmykoY=",
+  "Hash": "4gC5SRsCUhAQqfuuiUoHLMG5PCHNNGN3xIpVk56GahQ=",
   "Source": "Nile.Client",
   "BasePath": "_content/Nile.Client",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\NileLib.Components.csproj",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj",
       "Version": 2,
       "Source": "NileLib.Components",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,24 +22,24 @@
     {
       "Name": "Nile.Client\\wwwroot",
       "Source": "Nile.Client",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "Pattern": "**"
     },
     {
       "Name": "NileLib.Components\\wwwroot",
       "Source": "NileLib.Components",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Nile.Client.styles.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Nile.Client.styles.css",
       "SourceId": "Nile.Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "Nile.Client.styles.css",
       "AssetKind": "All",
@@ -50,13 +50,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Nile.Client.styles.css"
+      "OriginalItemSpec": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Nile.Client.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Nile.Client.bundle.scp.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Nile.Client.bundle.scp.css",
       "SourceId": "Nile.Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "Nile.Client.bundle.scp.css",
       "AssetKind": "All",
@@ -67,13 +67,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Nile.Client.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Nile.Client.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -87,10 +87,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -104,10 +104,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\dark_theme_navbar.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\dark_theme_navbar.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/dark_theme_navbar.css",
       "AssetKind": "All",
@@ -121,10 +121,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dark_theme_navbar.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\light_theme_navbar.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\light_theme_navbar.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/light_theme_navbar.css",
       "AssetKind": "All",
@@ -138,10 +138,10 @@
       "OriginalItemSpec": "wwwroot\\css\\light_theme_navbar.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -155,10 +155,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -172,10 +172,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -189,10 +189,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -223,10 +223,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -240,10 +240,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -274,10 +274,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -291,10 +291,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\css\\site.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -308,10 +308,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\favicon.ico",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -325,10 +325,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\all.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/all.css",
       "AssetKind": "All",
@@ -342,10 +342,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\all.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\brands.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -376,10 +376,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\brands.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -393,10 +393,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\fontawesome.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -410,10 +410,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -427,10 +427,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\regular.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -444,10 +444,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\regular.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -461,10 +461,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\solid.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -478,10 +478,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\solid.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -495,10 +495,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -512,10 +512,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -529,10 +529,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\v4-shims.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -546,10 +546,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\all.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\all.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/all.js",
       "AssetKind": "All",
@@ -580,10 +580,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\all.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -597,10 +597,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\brands.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\brands.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/brands.js",
       "AssetKind": "All",
@@ -614,10 +614,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\brands.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\brands.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/brands.min.js",
       "AssetKind": "All",
@@ -631,10 +631,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/conflict-detection.js",
       "AssetKind": "All",
@@ -648,10 +648,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/conflict-detection.min.js",
       "AssetKind": "All",
@@ -665,10 +665,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\fontawesome.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\fontawesome.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/fontawesome.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/fontawesome.min.js",
       "AssetKind": "All",
@@ -699,10 +699,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\regular.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\regular.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/regular.js",
       "AssetKind": "All",
@@ -716,10 +716,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\regular.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\regular.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/regular.min.js",
       "AssetKind": "All",
@@ -733,10 +733,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\solid.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\solid.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/solid.js",
       "AssetKind": "All",
@@ -750,10 +750,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\solid.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\solid.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/solid.min.js",
       "AssetKind": "All",
@@ -767,10 +767,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\v4-shims.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\v4-shims.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/v4-shims.js",
       "AssetKind": "All",
@@ -784,10 +784,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/js/v4-shims.min.js",
       "AssetKind": "All",
@@ -801,10 +801,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\sprites\\brands.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -818,10 +818,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\sprites\\regular.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -835,10 +835,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\sprites\\solid.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -852,10 +852,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.eot",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -869,10 +869,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -886,10 +886,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -903,10 +903,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -937,10 +937,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.eot",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -954,10 +954,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -971,10 +971,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -988,10 +988,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1022,10 +1022,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.eot",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -1039,10 +1039,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.svg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -1056,10 +1056,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1073,10 +1073,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -1090,10 +1090,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1107,10 +1107,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_1.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_1.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_1.jfif",
       "AssetKind": "All",
@@ -1124,10 +1124,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_1.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_2.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_2.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_2.jfif",
       "AssetKind": "All",
@@ -1141,10 +1141,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_2.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_3.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_3.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_3.jfif",
       "AssetKind": "All",
@@ -1158,10 +1158,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_3.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_4.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_4.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_4.jfif",
       "AssetKind": "All",
@@ -1175,10 +1175,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_4.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_6jfif.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_6jfif.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_6jfif.jfif",
       "AssetKind": "All",
@@ -1192,10 +1192,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_6jfif.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_7.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_7.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_7.jfif",
       "AssetKind": "All",
@@ -1209,10 +1209,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_7.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\a_9.jfif",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\a_9.jfif",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/a_9.jfif",
       "AssetKind": "All",
@@ -1226,10 +1226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a_9.jfif"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\black_q.jpg",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\black_q.jpg",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/black_q.jpg",
       "AssetKind": "All",
@@ -1243,10 +1243,10 @@
       "OriginalItemSpec": "wwwroot\\img\\black_q.jpg"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\facebook-48.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\facebook-48.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/facebook-48.png",
       "AssetKind": "All",
@@ -1260,10 +1260,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook-48.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\facebook.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\facebook.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/facebook.png",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\instagram.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\instagram.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/instagram.png",
       "AssetKind": "All",
@@ -1294,10 +1294,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\linkedin-circled-48.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\linkedin-circled-48.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/linkedin-circled-48.png",
       "AssetKind": "All",
@@ -1311,10 +1311,10 @@
       "OriginalItemSpec": "wwwroot\\img\\linkedin-circled-48.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\linkedin.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\linkedin.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/linkedin.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\img\\linkedin.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\SearchIcon.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\SearchIcon.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/SearchIcon.png",
       "AssetKind": "All",
@@ -1345,10 +1345,10 @@
       "OriginalItemSpec": "wwwroot\\img\\SearchIcon.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\twitter-48.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\twitter-48.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/twitter-48.png",
       "AssetKind": "All",
@@ -1362,10 +1362,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter-48.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\img\\twitter.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\img\\twitter.png",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "img/twitter.png",
       "AssetKind": "All",
@@ -1379,10 +1379,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\js\\index.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\js\\index.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -1396,10 +1396,10 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\js\\jquery.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\js\\jquery.js",
       "SourceId": "Nile.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\Nile.Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.Client\\wwwroot\\",
       "BasePath": "_content/Nile.Client",
       "RelativePath": "js/jquery.js",
       "AssetKind": "All",
@@ -1413,10 +1413,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css",
       "SourceId": "NileLib.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "NileLib.Components.bundle.scp.css",
       "AssetKind": "All",
@@ -1427,13 +1427,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NileLib.Components.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\background.png",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\background.png",
       "SourceId": "NileLib.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1447,10 +1447,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\exampleJsInterop.js",
+      "Identity": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\exampleJsInterop.js",
       "SourceId": "NileLib.Components",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Maxo\\source\\repos\\Blazor_wasb\\NileLib.Components\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\wwwroot\\",
       "BasePath": "_content/NileLib.Components",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

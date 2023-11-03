@@ -11,7 +11,7 @@ namespace Nile.Client.Pages.ArticalViews
         protected async override Task OnInitializedAsync()
         {
             Edit = "Edit Article";
-            Article = new Article { Title = "", Content = "", PublishDate = DateTime.Now };
+            Article = new Article { Title = "", Content = "", DatePublished = DateTime.Now };
         }
     }
 }

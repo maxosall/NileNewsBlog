@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "438mOgUIbCYVjrqr3lh3bMsneBVoKfiBfr0EpW6/qdc=",
+  "Hash": "ox7Dn1fqlLzKFW6HZQ2ifA7ah3EGLWqsbiRxbp+MyRk=",
   "Source": "Nile.API",
   "BasePath": "_content/Nile.API",
   "Mode": "Default",
@@ -12,10 +12,10 @@
       "Source": "NileLib.Components",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [

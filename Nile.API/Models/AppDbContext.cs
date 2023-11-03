@@ -134,3 +134,42 @@ public class AppDbContext : DbContext
 
     }
 }
+
+
+
+
+/*
+import React from "react";
+
+function AutoResizeTextarea({ value, onChange, placeholder, minHeight, className }) {
+  const textareaRef = React.useRef(null);
+
+  React.useLayoutEffect(() => {
+    // Reset height - important to shrink on delete
+    textareaRef.current.style.height = "inherit";
+
+    // Set height
+    textareaRef.current.style.height = `${Math.max(
+      textareaRef.current.scrollHeight,
+      minHeight
+    )}px`;
+  }, [value]);
+
+  return (
+    <textarea
+      onChange={onChange}
+      ref={textareaRef}
+      style={{
+        minHeight: minHeight,
+        resize: "none"
+      }}
+      value={value}
+      placeholder={placeholder}
+      className={className}
+    />
+  );
+}
+
+export default AutoResizeTextarea;
+
+*/ 

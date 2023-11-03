@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XnpGfLs8pkFu4X4ShaPK4aVq2SlGVZrl+eI20D7J+y8SJdjU9PVeMHv607NwPJtht1oY6H4THLwjNdRovsgv1A==",
+  "dgSpecHash": "QK9FR5tMY9JkgwOc1USCf1xXlVKmkJJn2A4ATpgMpvvVl7LJnnccXMlDHFJFpzW4dF+RrQLHx80/c19Z4IyB0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\NileLib.Components\\NileLib.Components.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,10 @@
     "C:\\Users\\maxo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\maxo\\.nuget\\packages\\microsoft.jsinterop\\6.0.0\\microsoft.jsinterop.6.0.0.nupkg.sha512",
     "C:\\Users\\maxo\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
-    "C:\\Users\\maxo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\maxo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512"
   ],
   "logs": []
 }

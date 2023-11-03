@@ -12,11 +12,11 @@ namespace Nile.Client.Services
 
         public async Task<Article> AddArticle(Article article)
         {
-            var response = await httpClient.PostFromJsonAsync("api/articles", article);
+            var response = await httpClient.PostAsJsonAsync("api/articles", article);
             return await response.Content.ReadFromJsonAsync<Article>();
         }
 
-        public void DeleteArticle(int id)
+        public async Task DeleteArticle(int id)
         {
             await httpClient.DeleteAsync($"api/articles/{id}");
         }
@@ -27,7 +27,7 @@ namespace Nile.Client.Services
         public async Task<IEnumerable<Article>> GetArticles() =>
             await httpClient.GetFromJsonAsync<IEnumerable<Article>>("api/articles/");
 
-        public Task<Article> UpdateArticle(Article article)
+        public async Task<Article> UpdateArticle(Article article)
         {
             var response = await httpClient.PutAsJsonAsync<Article>("api/articles", article);
             return await response.Content.ReadFromJsonAsync<Article>();

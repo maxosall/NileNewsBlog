@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Nile.API.Models;
 using Nile.lib;
+using Nile.API.Models.DTOs;
 
 namespace Nile.API.Controllers;
 
@@ -15,11 +16,21 @@ public class ArticlesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult> GetArticles()
+    public async Task<IActionResult> GetArticles()
     {
         try
-        {
-            return Ok(await articleRepository.GetArticles());
+        { 
+          var articles = await articleRepository.GetArticles();
+          var responseDTO = (from a in articles
+            select new ArticleResponseDTO
+            {
+              ArticleId = a.ArticleId,
+              Title = a.Title,
+              Content = a.Content,
+              DatePublished = a.DatePublished,
+              AuthorName = $"{a.Author?.FirstName} {a.Author?.LastName}"
+            });
+            return Ok(responseDTO);
         }
         catch (System.Exception)
         {
@@ -43,18 +54,40 @@ public class ArticlesController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<Article>> CreateArticle(Article article)
+    public async Task<IActionResult> CreateArticle(ArticleRequestDTO articleRequestDTO)
     {
-        try
+      try
+      {
+        // if (!ModelState.IsValid)
+        // {
+        //     return BadRequest(ModelState);
+        // }
+        if (articleRequestDTO == null) return BadRequest();
+        
+        var article = new Article
         {
-            if (article == null) return BadRequest();
-            var createdArticle = await articleRepository.AddArticle(article);
-            return CreatedAtAction(nameof(GetArticleById),
-                new { id = createdArticle.ArticleId },
-                createdArticle);
+            ArticleId = articleRequestDTO.ArticleId,
+            Title = articleRequestDTO.Title,
+            Content = articleRequestDTO.Content,
+            DatePublished = articleRequestDTO.DatePublished,
+            AuthorId = articleRequestDTO.AuthorId
+        };       
+
+        var createdArticle = await articleRepository.AddArticle(article);
+
+
+        // ARTICLE: Response     
+      
+       
+        
+        return CreatedAtAction(
+          actionName: nameof(GetArticleById),
+          routeValues: new { id = createdArticle.ArticleId },
+          value: createdArticle);            
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+          // Console.WriteLine($"ERROR MESSAGE: -> {ex.Message}");
             return StatusCode500();
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lIMnWTQU+e5pvH0kb0sSG7pIMUbVsgv/6tSnukR31npEamZK4uv86ocRhASHdI0i3oiclS28wakDDQwCZZYN4A==",
+  "dgSpecHash": "1IhQdsjm7sDH20gDBhPHOERj7QVkfF1QFhYLAyoAPfRNTbBhRyddRHYEZ9O+7DGpAcynYQLjbsGdqnJSH0LwrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxo\\Documents\\maxo_projects\\NileNewsBlog\\NileNewsBlog\\Nile.lib\\Nile.lib.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,10 @@
     "C:\\Users\\maxo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\maxo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\maxo\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512",
-    "C:\\Users\\maxo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\maxo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.18\\microsoft.netcore.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.18\\microsoft.windowsdesktop.app.ref.6.0.18.nupkg.sha512",
+    "C:\\Users\\maxo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.18\\microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512"
   ],
   "logs": []
 }

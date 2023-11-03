@@ -33,9 +33,7 @@ namespace Nile.lib
         public DateTime DateOfBirth { get; set; }
         public Gender? Gender { get; set; }
 
-        // [Required]
-        // [MinLength(300, ErrorMessage = "The is has to at least 300 char")]
-        [MaxLength(450, ErrorMessage = "The is has to at most 450 char")]
+        [StringLength(450, MinimumLength = 300, ErrorMessage = "The is has to at least 300 char and at most 450 char")]
         [Column(TypeName = "varchar(450)")]
         public string? Bio { get; set; }
         public string? PhotoPath { get; set; }
@@ -44,6 +42,8 @@ namespace Nile.lib
         public virtual List<Article>? Articles { get; set; } = new List<Article>();
         public virtual List<Comment>? Comments { get; set; } = new List<Comment>();
         public virtual Department? Department { get; set; }
+
+        [NotMapped]
         public string FullName => $"{FirstName} {LastName}";
     }
 }

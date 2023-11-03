@@ -20,7 +20,6 @@ C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Deb
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\Nile.lib.deps.json
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\Nile.lib.runtimeconfig.json
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\Nile.lib.dll
-C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\ref\Nile.lib.dll
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\Nile.lib.pdb
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\NileLib.Components.dll
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\bin\Debug\net6.0\NileLib.Components.pdb
@@ -34,3 +33,4 @@ C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\obj\Deb
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\obj\Debug\net6.0\ref\Nile.lib.dll
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\obj\Debug\net6.0\Nile.lib.pdb
 C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\obj\Debug\net6.0\Nile.lib.genruntimeconfig.cache
+C:\Users\maxo\Documents\maxo_projects\NileNewsBlog\NileNewsBlog\Nile.lib\obj\Debug\net6.0\refint\Nile.lib.dll

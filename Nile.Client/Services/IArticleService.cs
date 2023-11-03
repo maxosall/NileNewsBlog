@@ -8,6 +8,6 @@ namespace Nile.Client.Services
         Task<Article> GetArticleById(int id);
         Task<Article> AddArticle(Article article);
         Task<Article> UpdateArticle(Article article);
-        void DeleteArticle(int id);
+        Task DeleteArticle(int id);
     }
 }

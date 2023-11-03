@@ -14,4 +14,6 @@ namespace Nile.lib
         public string DepartmentName { get; set; }
         public virtual List<Author>? Authors { get; set; } = new List<Author>();
     }
+
+
 }
